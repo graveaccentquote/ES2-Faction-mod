@@ -25,8 +25,8 @@
     <Bailiff Name="DefaultMoneyBailiff"/>
     <Bailiff Name="DefaultEmpirePointBailiff"/>
 
-    <MajorPopulation Affinity="AffinitySophons"     Count="2"/>
-    <!--<MajorPopulation Affinity="AffinityUnitedHissho"     Count="2"/> -->
+    <!--<MajorPopulation Affinity="AffinitySophons"     Count="2"/>-->
+    <MajorPopulation Affinity="AffinityUnitedHissho"     Count="2"/> 
   </MajorFaction>
   
 
