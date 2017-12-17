@@ -13,7 +13,7 @@
     <Trait Name="IsMajorFaction"/>
 
     <TraitStartingSenate Priority="100">
-      <Government Name="GovernmentDemocracy"/> <!-- change to GovermentDictatorShipHisshos -->
+      <Government Name="GovernmentDemocracy"/> <!-- TODO change to GovermentDictatorShipHisshos -->
       <PoliticsWeight Politics="Politics01" Weight="0"/>
       <PoliticsWeight Politics="Politics02" Weight="0"/>
       <PoliticsWeight Politics="Politics03" Weight="0"/>

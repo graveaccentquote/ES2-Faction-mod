@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", 
 		Simulation\Factions[Major].xml = Simulation\Factions[Major].xml
 		Simulation\FactionTraits[Affinity].xml = Simulation\FactionTraits[Affinity].xml
 		Simulation\FactionTraits[AffinityMapping].xml = Simulation\FactionTraits[AffinityMapping].xml
-		Simulation\FactionTraits[Major].xml = Simulation\FactionTraits[Major].xml
-		Simulation\PersonalityDefinitions.xml = Simulation\PersonalityDefinitions.xml
 		Simulation\PopulationDefinitions.xml = Simulation\PopulationDefinitions.xml
 		Simulation\SimulationDescriptors[FactionAffinity].xml = Simulation\SimulationDescriptors[FactionAffinity].xml
 		Simulation\SimulationDescriptors[FactionAffinityMapping].xml = Simulation\SimulationDescriptors[FactionAffinityMapping].xml
@@ -26,6 +24,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{9F846558-B891-4B49-B8DC-E70903803008}"
 	ProjectSection(SolutionItems) = preProject
 		Gui\GuiElements[Affinities].xml = Gui\GuiElements[Affinities].xml
+		Gui\GuiElements[EmpireImprovements].xml = Gui\GuiElements[EmpireImprovements].xml
 		Gui\GuiElements[Factions].xml = Gui\GuiElements[Factions].xml
 		Gui\GuiElements[GameVariables].xml = Gui\GuiElements[GameVariables].xml
 		Gui\GuiElements[Hulls].xml = Gui\GuiElements[Hulls].xml

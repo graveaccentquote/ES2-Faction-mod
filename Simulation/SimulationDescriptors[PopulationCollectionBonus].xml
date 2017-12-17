@@ -3,60 +3,62 @@
 
 
 
-  <!--FEDERATED HISSHOS-->
-  <SimulationDescriptor Name="PopulationCollectionBonusFederatedHisshos1" Type="PopulationCollectionBonus">
+  <!--UNITED HISSHO-->
+  <SimulationDescriptor Name="PopulationCollectionBonusUnitedHissho1" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false"   TooltipOverride="%TooltipOverridePositivePolitics02"/>
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityFederatedHisshosCount"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusFederatedHisshos1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityUnitedHisshoCount"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusUnitedHissho1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true"   />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="PopulationCollectionBonusFederatedHisshos2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusFederatedHisshos2,ClassPopulationEmpireAffinityFederatedHisshosCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityFederatedHisshos" SearchValueFromPath="true" TooltipHidden="true"/>
-    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityFederatedHisshos" SearchValueFromPath="true"/>
+  
+  <!--TODO : change these bonus-->
+  <SimulationDescriptor Name="PopulationCollectionBonusUnitedHissho2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusUnitedHissho2,ClassPopulationEmpireAffinityUnitedHisshoCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityUnitedHissho" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityUnitedHissho" SearchValueFromPath="true"/>
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="PopulationCollectionBonusFederatedHisshos3" Type="PopulationCollectionBonus">
+  <SimulationDescriptor Name="PopulationCollectionBonusUnitedHissho3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="TechnologyCostReduction"         Operation="Addition" Value="-0.2" Path="./ClassEmpire/ClassResearch" />
   </SimulationDescriptor>
   
   
-  <!--ASCENDED AMOEBAS-->
-
+  <!--ASCENDED AMOEBA-->
+  <!--TODO-->
   <!--
-  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoebas1" Type="PopulationCollectionBonus">
+  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoeba1" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="false"   TooltipOverride="%TooltipOverridePositivePolitics02"/>
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityAscendedAmoebasCount"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true"   />
-    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoebas1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityAscendedAmoebaCount"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom0Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom1Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom2Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom3Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom4Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom5Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom6Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom7Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom8Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom9Count"     TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom10Count"    TooltipHidden="true"   />
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="PopulationCollectionBonusAscendedAmoeba1,ClassPopulationEmpireAffinityCustom11Count"    TooltipHidden="true"   />
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoebas2" Type="PopulationCollectionBonus">
-    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusAscendedAmoebas2,ClassPopulationEmpireAffinityAscendedAmoebasCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAscendedAmoebas" SearchValueFromPath="true" TooltipHidden="true"/>
-    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAscendedAmoebas" SearchValueFromPath="true"/>
+  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoeba2" Type="PopulationCollectionBonus">
+    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="PopulationCollectionBonusAscendedAmoeba2,ClassPopulationEmpireAffinityAscendedAmoebaCount/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAscendedAmoeba" SearchValueFromPath="true" TooltipHidden="true"/>
+    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="false/./ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityAscendedAmoeba" SearchValueFromPath="true"/>
   </SimulationDescriptor>
 
-  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoebas3" Type="PopulationCollectionBonus">
+  <SimulationDescriptor Name="PopulationCollectionBonusAscendedAmoeba3" Type="PopulationCollectionBonus">
     <Modifier TargetProperty="TechnologyCostReduction"         Operation="Addition" Value="-0.2" Path="./ClassEmpire/ClassResearch" />
   </SimulationDescriptor>
 

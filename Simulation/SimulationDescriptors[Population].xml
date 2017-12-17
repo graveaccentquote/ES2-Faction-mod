@@ -25,10 +25,8 @@
 	</SimulationDescriptor>
 
 
-    <SimulationDescriptor Name="ClassPopulationEmpireAffinityFederatedHisshos" Type="ClassPopulationEmpire"/>
-    <!--<SimulationDescriptor Name="ClassPopulationEmpireAffinityAscendedAmoebas" Type="ClassPopulationEmpire"/>-->
-  
-  
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityUnitedHissho" Type="ClassPopulationEmpire"/>
+    <!--<SimulationDescriptor Name="ClassPopulationEmpireAffinityAscendedAmoeba" Type="ClassPopulationEmpire"/>--> <!--TODO-->
     <SimulationDescriptor Name="ClassPopulationEmpireAffinitySophons" Type="ClassPopulationEmpire"/>
     <SimulationDescriptor Name="ClassPopulationEmpireAffinityCravers" Type="ClassPopulationEmpire"/>
     <SimulationDescriptor Name="ClassPopulationEmpireAffinityVenetians" Type="ClassPopulationEmpire"/>
@@ -161,13 +159,23 @@
 		
 	</SimulationDescriptor>
 
-	<!-- Sophons -->
-	<SimulationDescriptor Name="ClassPopulationStarSystemAffinitySophons" Type="ClassPopulationStarSystem">
-	</SimulationDescriptor>
+    <!-- United Hissho -->
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUnitedHissho" Type="ClassPopulationStarSystem">
+    </SimulationDescriptor>
+
+
+    <!-- Ascended Amoeba -->
+    <!--<SimulationDescriptor Name="ClassPopulationStarSystemAffinityAscendedAmoeba" Type="ClassPopulationStarSystem">  
+    </SimulationDescriptor>-->
+    <!--TODO-->
+
+    <!-- Sophons -->
+	  <SimulationDescriptor Name="ClassPopulationStarSystemAffinitySophons" Type="ClassPopulationStarSystem">
+	  </SimulationDescriptor>
 
     <!-- Cravers -->
     <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCravers" Type="ClassPopulationStarSystem">
-   </SimulationDescriptor>
+    </SimulationDescriptor>
     
 
 
@@ -540,6 +548,32 @@
 	<!-- ################################################################-->
 	<!-- ############################# COUNT ############################-->
 	<!-- ################################################################-->
+
+    <!-- United Hissho -->
+    <SimulationDescriptor Name="ClassPopulationPlanetAffinityUnitedHisshoCount" Type="ClassPopulationPlanet">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUnitedHisshoCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUnitedHisshoCount" Type="ClassPopulationStarSystem">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUnitedHisshoCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityUnitedHisshoCount" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUnitedHisshoCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Ascended Amoeba -->   <!--TODO-->
+    <!--<SimulationDescriptor Name="ClassPopulationPlanetAffinityCraversCount" Type="ClassPopulationPlanet">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityCraversCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCraversCount" Type="ClassPopulationStarSystem">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCraversCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityCraversCount" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityCraversCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>-->
 
     <!-- Cravers -->
     <SimulationDescriptor Name="ClassPopulationPlanetAffinityCraversCount" Type="ClassPopulationPlanet">
@@ -1063,6 +1097,17 @@
     <!-- ################################################################-->
 	<!-- ######################### ASSIMILATION #########################-->
 	<!-- ################################################################-->
+
+  <!-- Hisshos -->
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUnitedHissho" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetAffinityUnitedHisshos" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationDefense"      Operation="Addition"    Value="20"     Path="ClassPopulation" />
+  </SimulationDescriptor>
+
+  <!-- Ascended Amoeba -->
+  <!--TODO-->
 
 	  <!-- Horatio -->
 	<SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityHoratio" Type="ClassPopulationAssimilated">
