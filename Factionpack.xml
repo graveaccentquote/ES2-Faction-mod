@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <RuntimeModule Name="FactionPack" Type="Extension" Version="0.1">
+
+    <!-- Title as it appears in the workshop // Example : <Title>Example technology</Title>-->
+        <Title>Faction Pack (Hisshos and Amoebas)</Title>
+    <!-- Description as it appears in the workshop // Example : <Description>Adds:- Technology - Exclusion technology link - Cost reduction technology link</Description>-->
+        <Description>Mod includes:
+ - 2 New major Factions: United Hisshos and Ascended Amoebas, adapted from Endless Space 1 Factions.
+ - Brand new Gameplay Affinities : Bushido and Amoebian Telescopes (Players coming from ES1 may be familiar with those)
+ - New talents
+ - Brand new quest lines for the new factions
+ - 2 Visual affinities
+ - Brand new technologies and improvements
+
+/!\ Disclaimer : It is currently impossible to import new ship models into the game through mods, so the new factions reuse existing ship models.
+
+G2G Discussion thread : COMING</Description>
+    <!-- Name of the author // Example : <Author>I_AM_ENFER</Author>-->
+        <Author>gravequote</Author>
+    <!-- Link to your other work // Example : <Homepage>https://www.games2gether.com/</Homepage>-->
+        <Homepage>https://www.games2gether.com/profile/Kuma/infos</Homepage>
+    <!-- Image as it appears in the workshop. Size should be 430x430 pixels // Example : <PreviewImageFile>ModIcon.png</PreviewImageFile>-->
+        <PreviewImageFile>factionpack.png</PreviewImageFile>
+    <!-- Add more content to this each time you update the mod // Example : <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>-->
+        <ReleaseNotes>COMING</ReleaseNotes>
+    <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units // Example : <Tags>Gameplay</Tags>-->
+        <Tags>MajorFactions, Art</Tags>
+
+		<!-- XML files to load -->
+		<Plugins>
+
+      <DatabasePlugin DataType="Faction, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="MajorFaction, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Simulation/Factions[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="MajorFaction, Assembly-CSharp">
+        <FilePath>Simulation/Factions[Major].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
+        <ExtraTypes>
+          <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
+          <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp"/>
+          <ExtraType DataType="FactionPopulationTrait, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Simulation/FactionTraits.xml</FilePath>
+        <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="FactionAffinity, Assembly-CSharp">
+        <FilePath>Simulation/FactionTraits[Affinity].xml</FilePath>
+      </DatabasePlugin>
+      
+      <DatabasePlugin DataType="FactionAffinityMapping, Assembly-CSharp">
+        <FilePath>Simulation/FactionTraits[AffinityMapping].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
+        <FilePath>Simulation/PopulationDefinitions.xml</FilePath>
+        <FilePath>Simulation/PopulationDefinitions[*].xml</FilePath>
+      </DatabasePlugin>
+      
+      <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+        <FilePath>Simulation/SimulationDescriptors[UniquePlanet].xml</FilePath>
+      </DatabasePlugin>
+      
+      <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+        <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+        <ExtraTypes>
+          <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+          <ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="ResourceGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="HeroGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="HeroClassGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="PoliticsGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="WindowGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="LoadingWindowGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="MainMenuScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="NewGameScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="ControlBannerGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="TechnologyScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="TechnologyQuadrantGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="EconomyScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="FleetsScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp"/>
+          <ExtraType DataType="TableGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="LawGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="QuestGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="TutorialGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="GovernmentGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="RecipeSlotGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="EmpireActionGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="EmpireDiplomaticActionGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="ScanViewWindowGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="ScanViewCaptionGroupGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="AllianceGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="FidsiParametersGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="DiplomaticTermGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="CuriosityTypeGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="StarSystemResourceImprovementGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="TradableSectionGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="MinorFactionDiplomacyModalWindowGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="VictoryScreenGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="StarSystemOverviewScanViewGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="DamageDataGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="EntityActionGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="PlanetScanViewWindowGuiElement, Assembly-CSharp"/>
+          <ExtraType DataType="VictoryConditionGuiElement, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Gui/GuiElements[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <!-- Add this if you replace text. Note that sub-folders must be named after the languages they contain -->
+      <LocalizationPlugin DefaultLanguage="english">
+        <Directory>Localization</Directory>
+      </LocalizationPlugin>
+      
+		</Plugins>
+
+	</RuntimeModule>
+</Datatable>

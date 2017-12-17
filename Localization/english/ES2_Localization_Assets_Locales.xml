@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Documentation/Schemas/Amplitude.Unity.Localization.LocalizationDatatableElement.xsd">
+
+  <!--Contains the new texts for the mod. If there is juste English language, it will be use for all localisations -->
+  <LocalizationPair Name="%FactionUnitedHisshoTitle">United Hissho</LocalizationPair>
+  <LocalizationPair Name="%FactionUnitedHisshoTitleDescription">The Hissho were originally born as a species excelling in flight on a low-gravity jungle planet. After being discovered relatively late in their evolutionary process by the Concretes, their DNA was tampered with to make them a highly dangerous race of gladiators. Centuries later, their culture evolved into one revolving around martial arts, honor and bloodshed. While this has created a race of highly aggressive, hardy and dangerous people naturally skilled in the art of battle and piloting, most Hissho now despise those who would rather focus on Science, which lead to a rift in their society. At last united under the banner of their new Shogun, the Hissho are ready to conquer the rest of the Galaxy.</LocalizationPair>
+  <LocalizationPair Name="%FactionAscendedAmoebaTitle">Asc. Amoeba</LocalizationPair>
+  <LocalizationPair Name="%FactionAscendedAmoebaTitleDescription">coming</LocalizationPair>
+  <!--ClassPopulationEmpireAffinitySophonsTitle-->
+
+  <!-- <LocalizationPair Name=""></LocalizationPair> -->
+  
+  
+
+</Datatable>
