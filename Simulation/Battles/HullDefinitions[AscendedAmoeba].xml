@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/HullDefinition.xsd">
+<!--<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/HullDefinition.xsd">
 
-    <!-- ******************** -->
-    <!-- **   CasperTest   ** -->
-    <!-- ******************** -->
+    --><!-- ******************** --><!--
+    --><!-- **   CasperTest   ** --><!--
+    --><!-- ******************** --><!--
 
-    <!--  SLOT EXAMPLES - Undefined, Weapon, Defense
+    --><!--  SLOT EXAMPLES - Undefined, Weapon, Defense
     <Slot Name="Slot01" RestrictedModuleCategory="Undefined">
         <Direction X="0" Z="1"/>
     </Slot>
@@ -30,12 +30,12 @@
             Edition = Ship Designer
             Discard = Constructible list or Hide slot in GUI
             Disable = Grey out slot in GUI
-    -->
+    --><!--
 
-    <!-- **   Unfallen Small Attack Hull   ** -->
+    --><!-- **   Unfallen Small Attack Hull   ** --><!--
     <HullDefinition Name="HullSmall01Unfallen" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 37.5)) + 75 </CustomCost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -53,7 +53,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleSmallAttacker"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -80,7 +80,7 @@
 					</Slot>
 				</CoreSection>
 
-				<!-- Forward Section -->
+				--><!-- Forward Section --><!--
 				<Section Name="SectionN">
 					<VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="180">
@@ -102,7 +102,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -128,7 +128,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
 					<Slot Name="DefenseSupport01">
@@ -141,12 +141,12 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -156,17 +156,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -181,10 +181,10 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **   Unfallen Small Support Hull   ** -->
+    --><!-- **   Unfallen Small Support Hull   ** --><!--
     <HullDefinition Name="HullSmall02Unfallen" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 37.5)) + 75 </CustomCost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -200,7 +200,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleSmallSupport"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -220,7 +220,7 @@
 					</Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="180">
@@ -242,7 +242,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -252,7 +252,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
 					<Slot Name="Defense01">
@@ -264,7 +264,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
 					<Slot Name="DefenseSupport01">
@@ -277,7 +277,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -287,17 +287,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -313,10 +313,10 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **   Unfallen Small Civilian Hull   ** -->
+    --><!-- **   Unfallen Small Civilian Hull   ** --><!--
     <HullDefinition Name="HullSmall03Unfallen" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
         <CostReductionReference Name="ColonyShipConstructible"/>
-        <!-- Additional cost here -->
+        --><!-- Additional cost here --><!--
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 25)) + 50 </CustomCost>
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire,!AffinityGameplayVampirilis,!AffinityGameplayVenetians,!AffinityGameplayUnfallen/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -331,7 +331,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleColonizer"/>
 			<SectionPattern_Eight>
-				<!-- Core Section -->
+				--><!-- Core Section --><!--
 				<CoreSection Name="CoreSection">
 					<VisualSectionName>Core</VisualSectionName>
 					<SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -343,7 +343,7 @@
 					</Slot>
 				</CoreSection>
 
-				<!-- Forward Section -->
+				--><!-- Forward Section --><!--
 				<Section Name="SectionN">
 					<VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Defense01">
@@ -353,7 +353,7 @@
 					</Slot>
 				</Section>
 
-				<!-- Forward/Right Section -->
+				--><!-- Forward/Right Section --><!--
 				<Section Name="SectionNE">
 					<VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -363,17 +363,17 @@
 					</Slot>
 				</Section>
 
-				<!-- Right Section -->
+				--><!-- Right Section --><!--
 				<Section Name="SectionE">
 					<VisualSectionName>Right</VisualSectionName>
 				</Section>
 
-				<!-- Back/Right Section -->
+				--><!-- Back/Right Section --><!--
 				<Section Name="SectionSE">
 					<VisualSectionName>BackRight</VisualSectionName>
 				</Section>
 
-				<!-- Back Section -->
+				--><!-- Back Section --><!--
 				<Section Name="SectionS">
 					<VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -383,17 +383,17 @@
 					</Slot>
 				</Section>
 
-				<!-- Back/Left Section -->
+				--><!-- Back/Left Section --><!--
 				<Section Name="SectionSW">
 					<VisualSectionName>BackLeft</VisualSectionName>
 				</Section>
 
-				<!-- Left Section -->
+				--><!-- Left Section --><!--
 				<Section Name="SectionW">
 					<VisualSectionName>Left</VisualSectionName>
 				</Section>
 
-				<!-- Forward/Left Section -->
+				--><!-- Forward/Left Section --><!--
 				<Section Name="SectionNW">
 					<VisualSectionName>FrontLeft</VisualSectionName>
 				</Section>
@@ -408,10 +408,10 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **   Unfallen Exploration Hull   ** -->
+    --><!-- **   Unfallen Exploration Hull   ** --><!--
     <HullDefinition Name="HullSmall04Unfallen" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 25)) + 50 </CustomCost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -426,7 +426,7 @@
       <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleExploration"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -439,7 +439,7 @@
                     </Slot>
 				</CoreSection>
 
-				<!-- Forward Section -->
+				--><!-- Forward Section --><!--
 				<Section Name="SectionN">
 					<VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="180">
@@ -461,7 +461,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -471,17 +471,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -491,17 +491,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -516,10 +516,10 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **   Unfallen Leecher Hull  ** -->
+    --><!-- **   Unfallen Leecher Hull  ** --><!--
     <HullDefinition Name="HullSmall05Unfallen" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
         <CostReductionReference Name="ColonyShipConstructible"/>
-        <!-- Additional cost here -->
+        --><!-- Additional cost here --><!--
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 25)) + 50</CustomCost>
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire,AffinityGameplayVampirilis/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -533,7 +533,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleLeecher"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -558,7 +558,7 @@
                     </Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
                     <Slot Name="Support01">
@@ -568,22 +568,22 @@
                     </Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
                     <Slot Name="Support01">
@@ -594,17 +594,17 @@
                     </Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -618,7 +618,7 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
     
-    <!-- **   Unfallen Root Creator Hull   ** -->
+    --><!-- **   Unfallen Root Creator Hull   ** --><!--
     <HullDefinition Name="HullSmall06Unfallen" ScoreProvider="CivilianShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign">
 		<CostReductionReference Name="ColonyShipConstructible"/>
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 1 ) * 200)) + 400</CustomCost>
@@ -634,7 +634,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleRootCreator"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -646,7 +646,7 @@
                     </Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Defense01">
@@ -656,7 +656,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -666,17 +666,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -686,17 +686,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -714,11 +714,11 @@
     </HullDefinition>
     
 
-    <!-- **   Unfallen Medium Attack Hull   ** -->
+    --><!-- **   Unfallen Medium Attack Hull   ** --><!--
     <HullDefinition Name="HullMedium01Unfallen" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 2 ) * 150)) + 300 </CustomCost>
         <Cost Instant="true" ResourceName="Strategic1">5</Cost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -735,7 +735,7 @@
       <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleMediumAttacker"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -773,7 +773,7 @@
 					</Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Defense01">
@@ -802,7 +802,7 @@
 					</WeaponSlot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
@@ -834,7 +834,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
@@ -866,7 +866,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -900,7 +900,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -913,17 +913,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -938,11 +938,11 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **   Unfallen Medium Defense Hull   ** -->
+    --><!-- **   Unfallen Medium Defense Hull   ** --><!--
     <HullDefinition Name="HullMedium02Unfallen" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="2">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 2 ) * 150)) + 300 </CustomCost>
         <Cost Instant="true" ResourceName="Strategic2">5</Cost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -958,7 +958,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleMediumSupport"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -1000,7 +1000,7 @@
 					</Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
 					<Slot Name="Defense01">
@@ -1029,7 +1029,7 @@
 					</WeaponSlot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
@@ -1062,7 +1062,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
 					<Slot Name="Defense01">
@@ -1097,7 +1097,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
 					<Slot Name="Support01">
@@ -1110,7 +1110,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -1123,17 +1123,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -1149,12 +1149,12 @@
     </HullDefinition>
     
 
-    <!-- **   Unfallen Large Carrier Hull   ** -->
+    --><!-- **   Unfallen Large Carrier Hull   ** --><!--
     <HullDefinition Name="HullLarge01Unfallen" ScoreProvider="WarShipConstructed" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="4">
         <CustomCost ResourceName="SystemProduction">Max(0,((Property(StockLocation, @../ClassEmpire/ClassResearch, TechnologyQuadrantMilitaryActualStageNumber, true) - 3 ) * 625)) + 1250 </CustomCost>
         <Cost Instant="true" ResourceName="Strategic3">5</Cost>
         <Cost Instant="true" ResourceName="Strategic4">5</Cost>
-        <!-- S2 costs here -->
+        --><!-- S2 costs here --><!--
 
         <PathPrerequisite Flags="Prerequisite,Discard">ClassColonizedStarSystem,ColonizedStarSystemStateColony</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,Faction">./ClassEmpire/ClassPopulationEmpireAffinityUnfallen,PopulationMajor</PathPrerequisite>
@@ -1174,7 +1174,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleCarrier"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -1238,7 +1238,7 @@
 					</Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
 					<Slot Name="LargeWeapon01" IsLargeSlot="true" ModuleCostMultiplier="2" ShowPositionMarker="true" PositionMarkerAngle="180">
@@ -1283,7 +1283,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
 					<Slot Name="DefenseWeapon01" ShowPositionMarker="true" PositionMarkerAngle="0">
@@ -1339,7 +1339,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
 					<Slot Name="Defense01">
@@ -1360,7 +1360,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
 					<Slot Name="Defense01">
@@ -1383,7 +1383,7 @@
 					</Slot>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
 					<Slot Name="Support01">
@@ -1406,17 +1406,17 @@
 					</Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -1431,7 +1431,7 @@
         <LevelUpRuleReference Name="ShipLevelUpRule"/>
     </HullDefinition>
 
-    <!-- **  Unfallen Mothership   ** -->
+    --><!-- **  Unfallen Mothership   ** --><!--
     <HullDefinition Name="HullLarge00Unfallen" IsMothership="true" Category="CategoryHull" SubCategory="SubCategoryShipDesign" ModuleCostMultiplier="4" RepresentativeMappingOverride="HullLarge00Vampirilis">
         <Tags>NoBuyout</Tags>
         <CustomCost Instant="true" ResourceName="EmpireLifeforce">Property(StockLocation,@'../ClassEmpire',MaximumEmpireLifeforceStock)</CustomCost>
@@ -1451,7 +1451,7 @@
         <ShipDesignLayout>
             <ShipRoleReference Name="ShipRoleMothership"/>
             <SectionPattern_Eight>
-                <!-- Core Section -->
+                --><!-- Core Section --><!--
                 <CoreSection Name="CoreSection">
                     <VisualSectionName>Core</VisualSectionName>
                     <SimulationDescriptorReference Name="ClassSectionCore"/>
@@ -1512,7 +1512,7 @@
                     </Slot>
                 </CoreSection>
 
-                <!-- Forward Section -->
+                --><!-- Forward Section --><!--
                 <Section Name="SectionN">
                     <VisualSectionName>Front</VisualSectionName>
                     <Slot Name="LargeWeapon01" IsLargeSlot="true" ShowPositionMarker="true" PositionMarkerAngle="330" ModuleCostMultiplier="2">
@@ -1550,7 +1550,7 @@
                     </Slot>
                 </Section>
 
-                <!-- Forward/Right Section -->
+                --><!-- Forward/Right Section --><!--
                 <Section Name="SectionNE">
                     <VisualSectionName>FrontRight</VisualSectionName>
                     <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="60">
@@ -1591,7 +1591,7 @@
                     </Slot>
                 </Section>
 
-                <!-- Right Section -->
+                --><!-- Right Section --><!--
                 <Section Name="SectionE">
                     <VisualSectionName>Right</VisualSectionName>
                     <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="60">
@@ -1631,7 +1631,7 @@
                     </Slot>
                 </Section>
 
-                <!-- Back/Right Section -->
+                --><!-- Back/Right Section --><!--
                 <Section Name="SectionSE">
                     <VisualSectionName>BackRight</VisualSectionName>
                     <Slot Name="Weapon01" ShowPositionMarker="true" PositionMarkerAngle="60">
@@ -1667,7 +1667,7 @@
                     </Slot>
                 </Section>
 
-                <!-- Back Section -->
+                --><!-- Back Section --><!--
                 <Section Name="SectionS">
                     <VisualSectionName>Back</VisualSectionName>
                     <Slot Name="LargeWeapon01" IsLargeSlot="true" ShowPositionMarker="true" PositionMarkerAngle="330" ModuleCostMultiplier="2">
@@ -1708,17 +1708,17 @@
                     </Slot>
                 </Section>
 
-                <!-- Back/Left Section -->
+                --><!-- Back/Left Section --><!--
                 <Section Name="SectionSW">
                     <VisualSectionName>BackLeft</VisualSectionName>
                 </Section>
 
-                <!-- Left Section -->
+                --><!-- Left Section --><!--
                 <Section Name="SectionW">
                     <VisualSectionName>Left</VisualSectionName>
                 </Section>
 
-                <!-- Forward/Left Section -->
+                --><!-- Forward/Left Section --><!--
                 <Section Name="SectionNW">
                     <VisualSectionName>FrontLeft</VisualSectionName>
                 </Section>
@@ -1737,4 +1737,4 @@
 
 
 
-</Datatable>
+</Datatable>-->

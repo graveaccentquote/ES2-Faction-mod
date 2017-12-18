@@ -32,17 +32,19 @@ G2G Discussion thread : COMING</Description>
 		<!-- XML files to load -->
 		<Plugins>
 
+      <!-- FACTIONS -->
       <DatabasePlugin DataType="Faction, Assembly-CSharp">
         <ExtraTypes>
           <ExtraType DataType="MajorFaction, Assembly-CSharp"/>
         </ExtraTypes>
         <FilePath>Simulation/Factions[*].xml</FilePath>
       </DatabasePlugin>
-
       <DatabasePlugin DataType="MajorFaction, Assembly-CSharp">
         <FilePath>Simulation/Factions[Major].xml</FilePath>
       </DatabasePlugin>
 
+      
+      <!-- FACTION TRAITS -->
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
         <ExtraTypes>
           <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
@@ -52,28 +54,36 @@ G2G Discussion thread : COMING</Description>
         <FilePath>Simulation/FactionTraits.xml</FilePath>
         <FilePath>Simulation/FactionTraits[*].xml</FilePath>
       </DatabasePlugin>
-
       <DatabasePlugin DataType="FactionAffinity, Assembly-CSharp">
         <FilePath>Simulation/FactionTraits[Affinity].xml</FilePath>
       </DatabasePlugin>
-      
       <DatabasePlugin DataType="FactionAffinityMapping, Assembly-CSharp">
         <FilePath>Simulation/FactionTraits[AffinityMapping].xml</FilePath>
       </DatabasePlugin>
 
+      
+      <!-- POPULATIONS -->
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
         <FilePath>Simulation/PopulationDefinitions.xml</FilePath>
         <FilePath>Simulation/PopulationDefinitions[*].xml</FilePath>
       </DatabasePlugin>
       
+
+      <!-- SIMDES -->
       <DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
-        <FilePath>Simulation/SimulationDescriptors[UniquePlanet].xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors.xml</FilePath>
+        <FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+        <FilePath>Simulation/Battles/SimulationDescriptors[*].xml</FilePath>
       </DatabasePlugin>
+
       
+      <!-- GALAXY GENERATOR -->
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
 
+      
+      <!-- GUI -->
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
@@ -119,7 +129,7 @@ G2G Discussion thread : COMING</Description>
         <FilePath>Gui/GuiElements[*].xml</FilePath>
       </DatabasePlugin>
 
-      <!-- Add this if you replace text. Note that sub-folders must be named after the languages they contain -->
+      <!-- Localization -->
       <LocalizationPlugin DefaultLanguage="english">
         <Directory>Localization</Directory>
       </LocalizationPlugin>

@@ -18,7 +18,7 @@
     ####  UNITED HISSHOS ##
     ######################-->
   <!--S01 Small Attacker-->
-  <ShipDesignTemplateDefinition Name="HullSmall01UnitedHissho_SmallAttacker" Hull="HullSmall01Cravers" ShipRole="ShipRoleSmallAttacker">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall01UnitedHissho_SmallAttacker" Hull="HullSmall01Cravers" ShipRole="ShipRoleSmallAttacker">
 
     <TemplateSlotBinding SlotName="CoreSection.Defense01">
       <TemplateModule Family="HullPlatingBase"            Weight="3"/>
@@ -60,10 +60,10 @@
       <TemplateModule Family="EngineBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--S02 Small Support-->
-  <ShipDesignTemplateDefinition Name="HullSmall02UnitedHissho_SmallSupport" Hull="HullSmall02Cravers" ShipRole="ShipRoleSmallSupport">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall02UnitedHissho_SmallSupport" Hull="HullSmall02Cravers" ShipRole="ShipRoleSmallSupport">
 
     <TemplateSlotBinding SlotName="CoreSection.Support01">
       <TemplateModule Family="CrewBase"                   Weight="3"/>
@@ -105,10 +105,10 @@
       <TemplateModule Family="EngineBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--S03 Small Colonizer-->
-  <ShipDesignTemplateDefinition Name="HullSmall03UnitedHissho_Colonizer" Hull="HullSmall03Cravers" ShipRole="ShipRoleColonizer">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall03UnitedHissho_Colonizer" Hull="HullSmall03Cravers" ShipRole="ShipRoleColonizer">
 
     <TemplateSlotBinding SlotName="CoreSection.Support01">
       <TemplateModule Family="EngineBase"/>
@@ -122,10 +122,10 @@
       <TemplateModule Family="EngineBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--S04 Small Explorer-->
-  <ShipDesignTemplateDefinition Name="HullSmall04UnitedHissho_Explorer" Hull="HullSmall04Cravers" ShipRole="ShipRoleExploration">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall04UnitedHissho_Explorer" Hull="HullSmall04Cravers" ShipRole="ShipRoleExploration">
 
     <TemplateSlotBinding SlotName="CoreSection.Weapon01">
       <TemplateModule Family="KineticBase"/>
@@ -139,10 +139,10 @@
       <TemplateModule Family="EngineBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--S05 Leecher -->
-  <ShipDesignTemplateDefinition Name="HullSmall05UnitedHissho_Leecher" Hull="HullSmall05Cravers" ShipRole="ShipRoleLeecher">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall05UnitedHissho_Leecher" Hull="HullSmall05Cravers" ShipRole="ShipRoleLeecher">
 
     <TemplateSlotBinding SlotName="CoreSection.Support01">
       <TemplateModule Family="GrowthLogisticsBase"/>
@@ -160,10 +160,10 @@
       <TemplateModule Family="GrowthLogisticsBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--S06 Root Creator-->
-  <ShipDesignTemplateDefinition Name="HullSmall06UnitedHissho_RootCreator" Hull="HullSmall06Cravers" ShipRole="ShipRoleRootCreator">
+  <!--<ShipDesignTemplateDefinition Name="HullSmall06UnitedHissho_RootCreator" Hull="HullSmall06Cravers" ShipRole="ShipRoleRootCreator">
 
     <TemplateSlotBinding SlotName="CoreSection.Support01">
       <TemplateModule Family="RootCreationBase"/>
@@ -181,10 +181,10 @@
       <TemplateModule Family="HullPlatingBase"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--M01 Medium Attacker-->
-  <ShipDesignTemplateDefinition Name="HullMedium01UnitedHissho_MediumAttacker" Hull="HullMedium01Cravers" ShipRole="ShipRoleMediumAttacker">
+  <!--<ShipDesignTemplateDefinition Name="HullMedium01UnitedHissho_MediumAttacker" Hull="HullMedium01Cravers" ShipRole="ShipRoleMediumAttacker">
 
     <TemplateSlotBinding SlotName="CoreSection.Weapon01">
       <TemplateModule Family="MissileBase"              Weight="4"/>
@@ -245,10 +245,10 @@
     </TemplateSlotBinding>
 
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--M02 Medium Support-->
-  <ShipDesignTemplateDefinition Name="HullMedium02UnitedHissho_MediumSupport" Hull="HullMedium02Cravers" ShipRole="ShipRoleMediumSupport">
+  <!--<ShipDesignTemplateDefinition Name="HullMedium02UnitedHissho_MediumSupport" Hull="HullMedium02Cravers" ShipRole="ShipRoleMediumSupport">
 
     <TemplateSlotBinding SlotName="CoreSection.Support01">
       <TemplateModule Family="CrewBase"               Weight="3"/>
@@ -312,10 +312,10 @@
 
 
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--L00 Mothership-->
-  <ShipDesignTemplateDefinition Name="HullLarge00UnitedHissho_Mothership" Hull="HullLarge00Cravers" ShipRole="ShipRoleMothership">
+  <!--<ShipDesignTemplateDefinition Name="HullLarge00UnitedHissho_Mothership" Hull="HullLarge00Cravers" ShipRole="ShipRoleMothership">
 
     <TemplateSlotBinding SlotName="CoreSection.Defense01">
       <TemplateModule Family="HullPlatingBase"          Weight="4"/>
@@ -387,10 +387,10 @@
       <TemplateModule Family="HullPlatingBase" Weight="3"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
   <!--L01 Carrier-->
-  <ShipDesignTemplateDefinition Name="HullLarge01UnitedHissho_Carrier" Hull="HullLarge01Cravers" ShipRole="ShipRoleCarrier">
+  <!--<ShipDesignTemplateDefinition Name="HullLarge01UnitedHissho_Carrier" Hull="HullLarge01Cravers" ShipRole="ShipRoleCarrier">
 
     <TemplateSlotBinding SlotName="CoreSection.LargeWeapon01">
       <TemplateModule Family="MissileBase"/>
@@ -458,7 +458,7 @@
       <TemplateModule Family="KineticBase"      Weight="2"/>
     </TemplateSlotBinding>
 
-  </ShipDesignTemplateDefinition>
+  </ShipDesignTemplateDefinition>-->
 
 
   <!--#####################

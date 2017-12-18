@@ -22,6 +22,8 @@
       <ShipDesign Abstract="Invader"          ShipDesign="UnitedHissho_Invader"/>
       <ShipDesign Abstract="LargeCarrier"     ShipDesign="UnitedHissho_LargeCarrier"/>
       <ShipDesign Abstract="Mothership"       ShipDesign="UnitedHissho_Mothership"/>
+      
+      
     </FactionAffinityMapping>
 
     <!-- Ascended Amoebas -->
