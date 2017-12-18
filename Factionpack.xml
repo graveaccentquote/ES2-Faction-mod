@@ -82,6 +82,20 @@ G2G Discussion thread : COMING</Description>
         <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
       </DatabasePlugin>
 
+      <!-- SHIP DESIGNS -->
+      <DatabasePlugin DataType="ShipDesignDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/ShipDesignDefinitions[*].xml</FilePath>
+      </DatabasePlugin>
+      <DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/HullDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/HullDefinitions[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <!-- FLEET NAMING -->
+      <DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
+        <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
+      </DatabasePlugin>
+
       
       <!-- GUI -->
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
