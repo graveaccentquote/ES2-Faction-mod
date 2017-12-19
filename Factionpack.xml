@@ -67,6 +67,15 @@ G2G Discussion thread : COMING</Description>
         <FilePath>Simulation/PopulationDefinitions.xml</FilePath>
         <FilePath>Simulation/PopulationDefinitions[*].xml</FilePath>
       </DatabasePlugin>
+
+      <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
+        <ExtraTypes>
+          <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
+          <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
+        </ExtraTypes>
+        <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+        <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+      </DatabasePlugin>
       
 
       <!-- SIMDES -->
@@ -89,6 +98,10 @@ G2G Discussion thread : COMING</Description>
       <DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
         <FilePath>Simulation/Battles/HullDefinitions.xml</FilePath>
         <FilePath>Simulation/Battles/HullDefinitions[*].xml</FilePath>
+      </DatabasePlugin>
+
+      <DatabasePlugin DataType="ShipDesignTemplateDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/ShipDesignTemplateDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <!-- FLEET NAMING -->

@@ -1746,14 +1746,15 @@
 	</GuiElement>
   
     <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUnitedHissho">
-        <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>      <!-- TODO Change this -->
+        <Title>%ClassPopulationEmpireAffinityUnitedHisshoTitle</Title>      
     </ExtendedGuiElement>
 
     <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUnitedHisshoCount">
         <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>
     </ExtendedGuiElement>
-        
-    <!--<ExtendedGuiElement Name="ClassPopulationEmpireAffinityAscendedAmoeba">
+
+    <!-- TODO Change this -->
+    <!--<ExtendedGuiElement Name="ClassPopulationEmpireAffinityAscendedAmoeba"> 
         <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>      
     </ExtendedGuiElement>
 
@@ -3155,13 +3156,13 @@
     <Title>%AffinitySophonsTitle</Title>
     <Description>%AffinitySophonsDescription</Description>
     <Icons>
-      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinitySophonsSmall" />
-      <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinitySophonsMedium" />
-      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinitySophonsMediumInverted" />
-      <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinitySophonsLarge" />
-      <Icon Size="Leader" Path="Bitmaps/Dynamic/Affinities/AffinitySophonsLeader" />
+      <Icon Size="Small" Path="Gui/small" />
+      <Icon Size="Medium" Path="Gui/medium"  />
+      <Icon Size="MediumInverted" Path="Gui/medium2" />
+      <Icon Size="Large"  Path="Gui/large" />
+      <Icon Size="Leader" Path="Gui/Leaders/HisshoLeader" />
     </Icons>
-    <SymbolString>[sophons]</SymbolString>
+    <SymbolString>[hisshos]</SymbolString>
     <Color Red="233" Green="105" Blue="237" Alpha="255" />
   </ExtendedGuiElement>
 
@@ -3183,11 +3184,11 @@
 		<Title>%AffinityCraversTitle</Title>
 		<Description>%AffinityCraversDescription</Description>
 		<Icons>
-			<Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
-			<Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityHisshosMedium" />
-			<Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityHisshosMediumInverted" />
-			<Icon Size="Large" Path="HisshoLeader" />
-			<Icon Size="Leader" Path="HisshoLeader" />
+      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
+      <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinityCraversMedium" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityCraversMediumInverted" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinityCraversLarge" />
+      <Icon Size="Leader" Path="Bitmaps/Dynamic/Affinities/AffinityCraversLeader" />
 		</Icons>
 		<SymbolString>[cravers]</SymbolString>
 		<Color Red="74" Green="122" Blue="244" Alpha="255" />

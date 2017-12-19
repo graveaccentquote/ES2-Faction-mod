@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", 
 		Simulation\Factions[Major].xml = Simulation\Factions[Major].xml
 		Simulation\FactionTraits[Affinity].xml = Simulation\FactionTraits[Affinity].xml
 		Simulation\FactionTraits[AffinityMapping].xml = Simulation\FactionTraits[AffinityMapping].xml
+		Simulation\PopulationCollectionBonusTraits.xml = Simulation\PopulationCollectionBonusTraits.xml
 		Simulation\PopulationDefinitions.xml = Simulation\PopulationDefinitions.xml
+		Simulation\PopulationModifiersTraits.xml = Simulation\PopulationModifiersTraits.xml
 		Simulation\SimulationDescriptors[FactionAffinity].xml = Simulation\SimulationDescriptors[FactionAffinity].xml
 		Simulation\SimulationDescriptors[FactionAffinityMapping].xml = Simulation\SimulationDescriptors[FactionAffinityMapping].xml
 		Simulation\SimulationDescriptors[Population].xml = Simulation\SimulationDescriptors[Population].xml
@@ -39,9 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GalaxyGenerator", "GalaxyGe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Battles", "Battles", "{81886F7C-CE3B-4B05-A9E9-340BD9361418}"
 	ProjectSection(SolutionItems) = preProject
-		Simulation\Battles\HullDefinitions[AscendedAmoeba].xml = Simulation\Battles\HullDefinitions[AscendedAmoeba].xml
 		Simulation\Battles\HullDefinitions[UnitedHissho].xml = Simulation\Battles\HullDefinitions[UnitedHissho].xml
-		Simulation\Battles\ShipDesignDefinitions[AscendedAmoeba].xml = Simulation\Battles\ShipDesignDefinitions[AscendedAmoeba].xml
 		Simulation\Battles\ShipDesignDefinitions[UnitedHissho].xml = Simulation\Battles\ShipDesignDefinitions[UnitedHissho].xml
 		Simulation\Battles\ShipDesignTemplateDefinitions.xml = Simulation\Battles\ShipDesignTemplateDefinitions.xml
 	EndProjectSection

@@ -20,13 +20,13 @@
         <Trait Name="PopulationPoliticalTraitAntiScientist"/>
         <Trait Name="PopulationPoliticalTraitAggressive"/>
 
-        <!--<Trait Name="PopulationModifiersTraitUnitedHisshoCount"/>  --><!-- TODO --><!--
-        <Trait Name="PopulationModifiersTraitUnitedHissho"/> --><!-- TODO -->
+        <Trait Name="PopulationModifiersTraitUnitedHisshoCount"/>  <!-- TODO -->
+        <Trait Name="PopulationModifiersTraitUnitedHissho"/> <!-- TODO -->
 
         <Trait Name="PopulationModifiersTraitPrimaryManpower"/>
         <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile"/>
 
-        <!--<Trait Name="PopulationCollectionBonusTraitUnitedHissho"/>-->
+        <Trait Name="PopulationCollectionBonusTraitUnitedHissho"/>
 
         <Wills>
         </Wills>
