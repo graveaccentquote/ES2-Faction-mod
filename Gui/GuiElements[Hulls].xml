@@ -7,8 +7,8 @@
         <Title>%HullSmall01UnitedHisshoTitle</Title>
         <Description>%HullSmall01UnitedHisshoDescription</Description>
         <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall01SophonsSmall" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsLarge" />
+            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
         </Icons>
     </GuiElement>
 
@@ -16,8 +16,8 @@
         <Title>%HullSmall02UnitedHisshoTitle</Title>
         <Description>%HullSmall02UnitedHisshoDescription</Description>
         <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall02SophonsSmall" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsLarge" />
+            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Cravers/ShipHullSmall02CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversLarge" />
         </Icons>
     </GuiElement>
 
@@ -25,8 +25,8 @@
         <Title>%HullSmall03UnitedHisshoTitle</Title>
         <Description>%HullSmall03UnitedHisshoDescription</Description>
         <Icons>
-            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
-            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
         </Icons>
     </GuiElement>
 

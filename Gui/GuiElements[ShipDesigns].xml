@@ -1,6 +1,120 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
 
+
+    <!-- ******************** -->
+    <!-- **   UnitedHisshos      ** -->
+    <!-- ******************** -->
+    <GuiElement Name="UnitedHisshos_Colonizer">
+      <Title>%ShipDesignSmall03ColonizerUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall03ColonizerUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="ShipDesignDecolonizationUnitedHisshos">
+      <Title>%ShipDesignSmall03ColonizerUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall03ColonizerUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_Explorer">
+      <Title>%ShipDesignSmall03ExplorerUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall03ExplorerUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_Invader">
+      <Title>%ShipDesignMedium02InvaderUnitedHisshosTitle</Title>
+      <Description>%ShipDesignMedium02InvaderUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_SmallAttack">
+      <Title>%ShipDesignSmall01AttackerUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall01AttackerUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall01SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall01SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_SmallSupport">
+      <Title>%ShipDesignSmall02SupporterUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall02SupporterUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall02SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall02SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_Leecher">
+      <Title>%ShipDesignSmall05LeecherUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall05LeecherUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+  
+    <GuiElement Name="UnitedHisshos_RootCreator">
+      <Title>%ShipDesignSmall06RootCreatorUnitedHisshosTitle</Title>
+      <Description>%ShipDesignSmall06RootCreatorUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullSmall03SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+
+    <GuiElement Name="UnitedHisshos_MediumAttack">
+      <Title>%ShipDesignMedium01AttackerUnitedHisshosTitle</Title>
+      <Description>%ShipDesignMedium01AttackerUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullMedium01SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium01SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_MediumDefense">
+      <Title>%ShipDesignMedium02DefenderUnitedHisshosTitle</Title>
+      <Description>%ShipDesignMedium02DefenderUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullMedium02SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullMedium02SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_LargeCarrier">
+      <Title>%ShipDesignLarge01CarrierUnitedHisshosTitle</Title>
+      <Description>%ShipDesignLarge01CarrierUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Sophons/ShipHullLarge01SophonsSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullLarge01SophonsLarge" />
+      </Icons>
+    </GuiElement>
+
+    <GuiElement Name="UnitedHisshos_Mothership">
+      <Title>%ShipDesignLarge00MothershipUnitedHisshosTitle</Title>
+      <Description>%ShipDesignLarge00MothershipUnitedHisshosDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Vampirilis/ShipHullVampirilisMothershipSmall" />
+        <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipLarge" />
+      </Icons>
+    </GuiElement>
+  
+  
     <!-- ******************** -->
     <!-- **   Sophons      ** -->
     <!-- ******************** -->

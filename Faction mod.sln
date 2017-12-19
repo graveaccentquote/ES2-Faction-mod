@@ -26,6 +26,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{9F846558-B891-4B49-B8DC-E70903803008}"
 	ProjectSection(SolutionItems) = preProject
 		Gui\GuiElements[Affinities].xml = Gui\GuiElements[Affinities].xml
+		Gui\GuiElements[Categories].xml = Gui\GuiElements[Categories].xml
 		Gui\GuiElements[EmpireImprovements].xml = Gui\GuiElements[EmpireImprovements].xml
 		Gui\GuiElements[Factions].xml = Gui\GuiElements[Factions].xml
 		Gui\GuiElements[GameVariables].xml = Gui\GuiElements[GameVariables].xml
