@@ -25,45 +25,46 @@
         </Modifier>
       </AssimilatedModifiers>
     </PopulationModifiersTrait>
-
-    <PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryScience01" SubCategory="Primary" ShowInCustom="true" Cost="5">
-      <!--Local Bonus: Analysts-->
+  
+    <!--TODO-->
+    <!--<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryScience01" SubCategory="Primary" ShowInCustom="true" Cost="5">
+      --><!--Local Bonus: Analysts--><!--
       <Modifiers>
         <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
           <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryScience01"/>
         </Modifier>
         <Modifier Class="ClassPopulationPlanet">
-          <!--+1 Science per Population-->
+          --><!--+1 Science per Population--><!--
           <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryScience01"/>
         </Modifier>
       </Modifiers>
       <AssimilatedModifiers>
         <Modifier Class="ClassPopulationPlanet">
-          <!--Bonus given to the Population that assimilates them-->
+          --><!--Bonus given to the Population that assimilates them--><!--
           <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetScience01"/>
         </Modifier>
       </AssimilatedModifiers>
     </PopulationModifiersTrait>
 
     <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryScienceCold" SubCategory="Secondary" ShowInCustom="true" Cost="5">
-      <!--Contextual Bonus: Cryologists-->
+      --><!--Contextual Bonus: Cryologists--><!--
       <Tags>PlanetGameplayTypeCold,BonusPopulationScience</Tags>
       <Modifiers>
         <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
           <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryScienceCold"/>
         </Modifier>
         <Modifier Class="ClassPopulationPlanet">
-          <!--+3 Science per Population on Cold-->
+          --><!--+3 Science per Population on Cold--><!--
           <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryScienceCold"/>
         </Modifier>
       </Modifiers>
       <AssimilatedModifiers>
         <Modifier Class="ClassPopulationPlanet">
-          <!--Bonus given to the Population that assimilates them-->
+          --><!--Bonus given to the Population that assimilates them--><!--
           <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetScienceCold"/>
         </Modifier>
       </AssimilatedModifiers>
-    </PopulationModifiersTrait>
+    </PopulationModifiersTrait>-->
 
     <PopulationModifiersTrait Name="PopulationModifiersTraitUnitedHisshoCount" SubCategory="Count">
       <Modifiers>
