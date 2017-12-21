@@ -52,7 +52,7 @@
     <SimulationDescriptorReference Name="WeaponAvailabilityBeam"/>
     <SimulationDescriptorReference Name="WeaponAvailabilityLaser"/>
     <SimulationDescriptorReference Name="ShipSizeSmall"/>
-    <SimulationDescriptorReference Name="ShipFactionCravers"/>
+    <SimulationDescriptorReference Name="ShipFactionCravers"/>  <!-- <= This needs to be set depending on the model you want displayed during battles (it takes the right prefab depending on faction, size and type-->
     <SimulationDescriptorReference Name="ShipHull01"/>
 
     <ShipDesignLayout>

@@ -36,10 +36,10 @@
     <meta content="https://avatars1.githubusercontent.com/u/34614915?s=400&amp;v=4" property="og:image" /><meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="gravequote/ES2-Faction-mod" property="og:title" /><meta content="https://github.com/gravequote/ES2-Faction-mod" property="og:url" /><meta content="ES2-Faction-mod - Faction mod for the game Endless Space 2. Read the Readme file to make it run." property="og:description" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjMxNjE1ODM3OjZlZDJhNzI4ZGI0YzdkNjkxOWNjMTcyNWI3ZDE4Y2QzNDBhZTY4NTk4YjkwOGZiYTUxODM2YWE0NDU4ZWNmZDk=--dc2bd3b0050036aee17a42e8e472e01bd0db6f2b">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MjMxNjE1ODM3OmYyNzdlYTYyZWQ3NTBlZTc3MmU5MDU2NTJmNmNlNmFlMmJhNDMxODI0MWYyY2ZjODFlZjIwYjMyMmE5NzJjZDI=--6c4b79ae5a48076ba8ee9dbda1f565ece12100f8">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="DE55:29CF:40AB63C:6E9F37C:5A38F38F" data-pjax-transient>
+  <meta name="request-id" content="DE8D:29CA:325B7F3:57A1E58:5A38F4D6" data-pjax-transient>
   
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
@@ -49,7 +49,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="DE55:29CF:40AB63C:6E9F37C:5A38F38F" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="34614915" name="octolytics-actor-id" /><meta content="gravequote" name="octolytics-actor-login" /><meta content="e1f6184a35d2f8d4c48ce54c44365a9219ac7d3ab4b2a524946aacfed1186c8e" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url" /><meta content="DE8D:29CA:325B7F3:57A1E58:5A38F4D6" name="octolytics-dimension-request_id" /><meta content="iad" name="octolytics-dimension-region_edge" /><meta content="iad" name="octolytics-dimension-region_render" /><meta content="34614915" name="octolytics-actor-id" /><meta content="gravequote" name="octolytics-actor-login" /><meta content="e1f6184a35d2f8d4c48ce54c44365a9219ac7d3ab4b2a524946aacfed1186c8e" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -64,7 +64,7 @@
   <meta name="user-login" content="gravequote">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="YTM0ODRkYjUyOTJmNTBkYjIyZmViYzIyNjNjMmFhYmEyYzNkMTlhYzlmMzk1ZThmNmEyMGI4M2ViODI5ZjhkNXx7InJlbW90ZV9hZGRyZXNzIjoiODYuMjQxLjIyNi4xMDgiLCJyZXF1ZXN0X2lkIjoiREU1NToyOUNGOjQwQUI2M0M6NkU5RjM3Qzo1QTM4RjM4RiIsInRpbWVzdGFtcCI6MTUxMzY4MTgxNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="YTY0NDhhOTNlM2QwZmZjNTY0M2NjNTZkYTgwYTdhOWVlOWNiZTBhNTc5M2NkZWEyNmI4NzhjNmNkZmEyNjRlMnx7InJlbW90ZV9hZGRyZXNzIjoiODYuMjQxLjIyNi4xMDgiLCJyZXF1ZXN0X2lkIjoiREU4RDoyOUNBOjMyNUI3RjM6NTdBMUU1ODo1QTM4RjRENiIsInRpbWVzdGFtcCI6MTUxMzY4MjEzOSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS">
 
@@ -251,7 +251,7 @@
           Settings
         </a></li>
 
-        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="I/F7fHIbJ17BToCllQsOb1aUue0+XQ2wZdfLaR/KIX9JwwA1FInk6ES8A6ezyadZIo5l3gzkLwj7gWBtUh0kzQ==" /></div>
+        <li><!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gV321Z9pAs8u+lBKpvQZFGYbdc44nNWuHEz7J02OZsXrb42c+fvBeasI00iANrAiEgGp/Qol9xaCGlAjAFljdw==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -262,7 +262,7 @@
 </ul>
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Vn6JWrJx9STd1Ufht6wmTY8++T8+iJsiG8ncFzKXf2A8TPIT1OM2klgnxOORbo97+yQlDAwxuZqFn3cTf0B60g==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="sr-only right-0" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="JvBTs3MJiEW8aBqWFRqQ+ysEbq2h+nN7Q0TyNNzOyENMwij6FZtL8zmamZQz2DnNXx6ynpNDUcPdElkwkRnN8Q==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -297,7 +297,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="giFIuqSqfFc+uyA2KU1ijGYMTXP8ouYFQdNlevmlYSXGZgmWIuGsOE8Ep/cK2eD12RXpvnRyuR+i1+RocZhnPw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="114508081" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="czvOZ0GZvl46HJnrJVyBH92PMUpkpXAOqAgtR0iTutc3fI9Lx9JuMUujHioGyANmYpaVh+x1LxRLDKxVwK68zQ==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="114508081" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/gravequote/ES2-Faction-mod/subscription"
@@ -377,7 +377,7 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ey8Dzfpu+GCUEUP32H2eLKgm340sPdPV2zIvArT+BS90HabHoWw0Seekn6eWdWwzRQtD+N/ePuo5b8khTgOqpw==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/unstar" class="starred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="n34pLsAVO8AezUGyo4txOyLFsl+5e3luIubS5dqaU+6QTIwkmxf36W14neLtg4Mkz+guKkqYlFHAuzTGIGf8Zg==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -392,7 +392,7 @@
           1
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wdSyj23pw7kLFdxUdB+xPTNdeiq3bs8lLvawt/GjGecclcHJmI3MI3X9Hbz6pYocNwk0AVUMdTX2JSetBuMCVQ==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/star" class="unstarred js-social-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0g/LqTUttk0lm7Dnw8cp8ft9zUxCEN0cZKKi158sGzYPTrjvwEm511tzcQ9NfRLQ/ymDZ6ByZwy8cTXNaGwAhA==" /></div>
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
@@ -411,7 +411,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VsaqdpBCzzHcnM+y7256r4pxD6kMYncLug14jCuKhtOl0SpXG+xvNI4jmQD0Gj9ymXTE+qrq04zxiGw9SOELJA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/fork" class="btn-with-count" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="xPMy38ap37+TAmgVnTi7mxBWWhYzG1korRyPLLoB5DQ35LL+TQd/usG9PqeGTP5GA1ORRZWT/a/mmZud2Wppww==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -495,9 +495,9 @@
   <div class="repository-content">
 
     
-  <a href="/gravequote/ES2-Faction-mod/blob/61c8d7c87d1be3ac77892bf900bf4450c51371e8/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+  <a href="/gravequote/ES2-Faction-mod/blob/b306e2f0af8985cb2d5a07d7b35ef610d6614017/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:34288465b3ffc6d3809902f3fdd2f2d0 -->
+  <!-- blob contrib key: blob_contributors:v21:21a0cd30e63f015f3101ae184157f98f -->
 
   <div class="file-navigation js-zeroclipboard-container">
     
@@ -550,7 +550,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HRHll/VtMN/eyUiTBlvQkpA1ThgTusJWbM/tpELmzFSfNt8iCU8ESJVP5Rh6c288IRxbHQQXqMo9xFuAoSBEMA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bcZSDiaRQawilmPd/pzAYq4G7/JV6IBMaJlapQ5Xe73v4Wi72rN1O2kQzlaCtH/MHy/690JF6tA5kuyB7ZHz2Q==" /></div>
           <svg aria-hidden="true" class="octicon octicon-git-branch select-menu-item-icon" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
             <div class="select-menu-item-text">
               <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
@@ -593,15 +593,15 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/gravequote/ES2-Faction-mod/commit/61c8d7c87d1be3ac77892bf900bf4450c51371e8" data-pjax>
-          61c8d7c
+        <a class="commit-tease-sha" href="/gravequote/ES2-Faction-mod/commit/b306e2f0af8985cb2d5a07d7b35ef610d6614017" data-pjax>
+          b306e2f
         </a>
-        <relative-time datetime="2017-12-19T11:09:33Z">Dec 19, 2017</relative-time>
+        <relative-time datetime="2017-12-19T11:13:29Z">Dec 19, 2017</relative-time>
       </span>
       <div>
         <img alt="@gravequote" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/34614915?s=40&amp;v=4" width="20" />
         <a href="/gravequote" class="user-mention" rel="author">gravequote</a>
-          <a href="/gravequote/ES2-Faction-mod/commit/61c8d7c87d1be3ac77892bf900bf4450c51371e8" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
+          <a href="/gravequote/ES2-Faction-mod/commit/b306e2f0af8985cb2d5a07d7b35ef610d6614017" class="message" data-pjax="true" title="Update README.md">Update README.md</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -641,12 +641,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/edit/master/README.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="j/LTV+744r5jnxRwE0mdS8Kgy0aRPTF/JSoBvNRP856+b6YfpRNK2JVmpMFEmE5L6XSmQYieQO9J60p9iBTSNg==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/edit/master/README.md" class="inline-form js-update-url-with-hash" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Wu/8gRHz/vhuAQALhDfUiwh7aqjsrPnqhgHiJKbiXn5rconJWhhWnpj4sLrT5geLI68Hr/UPiHrqwKnl+rl/1g==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Edit this file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="gcmYuRlXsAUZu+bnveMoMMU6hFYgdOYLR9RQN2GzQUxH+QQf6mYCwJm91cTMaihcnkbQZcOBYThETca+iVonVQ==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/gravequote/ES2-Faction-mod/delete/master/README.md" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="YnpnqCxxxJ3JOSCP5yc0OhRlm4Y5zLWeToHJIggQkBSkSvsO30B2WEk/E6yWrjRWTxnPtdo5Mq1NGF+r4Pn2DQ==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Delete this file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -654,18 +654,19 @@
 </form>  </div>
 
   <div class="file-info">
-      14 lines (5 sloc)
+      13 lines (7 sloc)
       <span class="file-info-divider"></span>
-    603 Bytes
+    608 Bytes
   </div>
 </div>
 
     
   <div id="readme" class="readme blob instapaper_body">
     <article class="markdown-body entry-content" itemprop="text"><p><strong>Due to the current way the game loads assets for the game you'll have to modify one of the vanilla files in order to make this mod run :</strong></p>
-<p>-Navigate to the Steam directory Endless Space 2 is installed in</p>
-<p>-Go to steamapps/common/EndlessSpace2/Public/Gui</p>
-<p>-Download the file GuiElements[Affinities].xml at the root of this repo and paste it on top of the one in the game's directory</p>
+<pre><code>-Navigate to the Steam directory Endless Space 2 is installed in
+-Go to steamapps/common/EndlessSpace2/Public/Gui
+-Download the file GuiElements[Affinities].xml at the root of this repo and paste it on top of the one in the game's directory
+</code></pre>
 <p>Devs have been notified and a fix is coming, in the meantime you'll have to do this manipulation once before launching the game. If you download the game again or revalidate your files you'll have to do it again.</p>
 </article>
   </div>
@@ -693,7 +694,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2017 <span title="0.15284s from unicorn-2429261637-62sc5">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2017 <span title="0.12904s from unicorn-339580741-v9vxv">GitHub</span>, Inc.</li>
         <li class="mr-3"><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li class="mr-3"><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

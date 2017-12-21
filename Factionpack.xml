@@ -61,7 +61,12 @@ G2G Discussion thread : COMING</Description>
         <FilePath>Simulation/FactionTraits[AffinityMapping].xml</FilePath>
       </DatabasePlugin>
 
-      
+
+      <!-- SENATE -->
+      <DatabasePlugin DataType="GovernmentDefinition, Assembly-CSharp">
+        <FilePath>Simulation/GovernmentDefinitions.xml</FilePath>
+      </DatabasePlugin>
+     
       <!-- POPULATIONS -->
       <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
         <FilePath>Simulation/PopulationDefinitions.xml</FilePath>

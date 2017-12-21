@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Faction mod", "Faction mod", "{CA04589C-358D-44C7-BE5C-258BCCD7F12F}"
 	ProjectSection(SolutionItems) = preProject
 		Factionpack.xml = Factionpack.xml
+		GuiElements[Affinities].xml = GuiElements[Affinities].xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{2CDDC112-89CA-463E-9599-378361C77573}"
@@ -13,11 +14,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", 
 		Simulation\Factions[Major].xml = Simulation\Factions[Major].xml
 		Simulation\FactionTraits[Affinity].xml = Simulation\FactionTraits[Affinity].xml
 		Simulation\FactionTraits[AffinityMapping].xml = Simulation\FactionTraits[AffinityMapping].xml
+		Simulation\GovernmentDefinitions.xml = Simulation\GovernmentDefinitions.xml
 		Simulation\PopulationCollectionBonusTraits.xml = Simulation\PopulationCollectionBonusTraits.xml
 		Simulation\PopulationDefinitions.xml = Simulation\PopulationDefinitions.xml
 		Simulation\PopulationModifiersTraits.xml = Simulation\PopulationModifiersTraits.xml
 		Simulation\SimulationDescriptors[FactionAffinity].xml = Simulation\SimulationDescriptors[FactionAffinity].xml
 		Simulation\SimulationDescriptors[FactionAffinityMapping].xml = Simulation\SimulationDescriptors[FactionAffinityMapping].xml
+		Simulation\SimulationDescriptors[Government].xml = Simulation\SimulationDescriptors[Government].xml
 		Simulation\SimulationDescriptors[Population].xml = Simulation\SimulationDescriptors[Population].xml
 		Simulation\SimulationDescriptors[PopulationCollectionBonus].xml = Simulation\SimulationDescriptors[PopulationCollectionBonus].xml
 		Simulation\SimulationDescriptors[UniquePlanet].xml = Simulation\SimulationDescriptors[UniquePlanet].xml
