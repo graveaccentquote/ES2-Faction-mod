@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+
+    <!--#################################################### COMMANDS ####################################################### 
+    ##
+    ##    TransferResources:  ResourceName,Amount
+    ##                          -ResourceName:string @see Public/Simulation/ResourceDefinitions.xml
+    ##                          -Amount:float
+    ##
+    ##    SetGovernment:      GovernmentDefinition
+    ##                          -GovernmentDefinition:string @see Public/Simulation/GovernmentDefinitions.xml
+    ##
+    ##    UnlockPolitics:     PoliticsDefinitionName
+    ##                          -PoliticsDefinitionName:string @see Public/Simulation/PoliticsDefinitions.xml
+    ##
+    ##    CreateSenator:      PoliticsDefinitionName,InitialSupport,InitialPower
+    ##                          -PoliticsDefinitionName:string @see Public/Simulation/PoliticsDefinitions.xml
+    ##                          -InitialSupport:float 0.0-1.0
+    ##                          -InitialPower:float 0.0-infinity
+    ##
+    ##    UnlockLaw:          LawDefinitionName
+    ##                          - LawDefinitionName: string @see Public/Simulation/LawDefinition.xml
+    ##
+    ##    ActivateLaw:        LawDefinitionName
+    ##                          - LawDefinitionName: string @see Public/Simulation/LawDefinition.xml
+    ##                          
+    ##    CreateHomeSystemImprovement: ConstructibleElementName
+    ##                          -ConstructibleElementName:string @see Public/Simulation/ConstructibleElement_Industry[*].xml
+    ##                          
+    ##    CreateFleet         ShipDesignName,[ShipDesignName*]
+    ##                          - ShipDesignName:string[] @see Public/Simulation/ShipDesignDefinition.xml
+    ##
+    ##    StartTemporaryEffect: TemporaryEffectDefinitionName
+    ##                          - TemporaryEffectDefinitionName: string @see Public/Simulation/TemporaryEffectDefinitions.xml
+    ##                            TemporaryEffectDefinition's Path starts from the home system.
+    ##
+    ##    UnlockTechnology:   ConstructibleElementName
+    ##                          - ConstructibleElementName: string @see Public/Simulation/ConstructibleElement_Science[*].xml
+    ##
+    ##    UnlockShipDesign:   ShipDesignDefinitionName
+    ##                          - ShipDesignDefinitionName: string @see Public/Simulation/ShipDesignDefinitions.xml
+    ##
+    ##    SetHomePlanetDepletion: Percentage 
+    ##                          - Percentage:float (0 -> 1)
+    ##
+    ##    SetHomeSystemManpowerPercentage: Percentage 
+    ##                          - Percentage:float (0 -> 1)
+    ##
+    ##    SetFleetsManpowerPercentage: Percentage 
+    ##                          - Percentage:float (0 -> 1)
+    ##
+    ##                          
+    ##############################################################################################################################-->
+
+    <!-- All the commands can have a priority if they must be executed after others. -->
+    <!-- Note that unlike in other XMLs a lower priority command is executed AFTER a higher priority command: 1 -> 0 -> -1 -->
+
+    <!-- ########################################## -->
+    <!-- ######        MAJOR FACTIONS        ###### -->
+    <!-- ########################################## -->
+
+
+    <!-- CRAVERS -->
+    <!--<FactionAffinity Name="AffinityGameplayCravers" SubCategory="MajorFactionAffinity" Hidden="false" Custom="true" Cost="100">
+        
+        <Command Name="TransferResources"               Arguments="EmpireManpower,1000"/>
+        <Command Name="TransferResources"               Arguments="EmpireMoney,100"/>
+        <Command Name="TransferResources"               Arguments="SystemInfluence,75"/>
+
+        <Command Name="UnlockBattleAction"              Arguments="Group_ComputeShipExperience"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyShipDestruction"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMilitaryPower"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_ComputeEndBattleStatus"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_Retreat"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_Retreat_RecoverMovementPoint"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_ReinforcementFlotilla_OnOwnShipDestruction"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_MainFlotilla_OnOwnShipDestruction"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_SetInitialMoraleBonus"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_OnEnemyFlotillaDestruction"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_OnFlotillaDestruction"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_ReportFlotillaDamageAppliedCurrentPhase"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_PhaseRepairShipCoreSection"/>
+        <Command Name="UnlockBattleAction"              Arguments="Group_RepairShipCoreSection"/>
+
+		<Command Name="UnlockTechnology"                Arguments="TechnologyDefinitionTerransStartingShipDesigns"/>
+        
+        --><!--  <Command Name="CreateFleet"                     Arguments="Cravers_SmallAttack"/> --><!--
+
+        <Command Name="SetHomeSystemManpowerPercentage" Arguments="1" Priority="-1"/>
+        <Command Name="SetFleetsManpowerPercentage"     Arguments="1" Priority="-1"/>
+
+        --><!--HOME SYSTEM DEFAULT BUILDING --><!--
+        <Command Name="CreateHomeSystemImprovement"     Arguments="StarSystemImprovementHomeSystem"/>
+        <Command Name="CreateHomeSystemImprovement"     Arguments="StarSystemImprovementColonyBase"/>
+
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveShortHullPlatingIncrease" Priority="0"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongShieldIncrease" Priority="-1"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostBalancedRecycling" Priority="-2"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveLongDamageIncreasePerShip" Priority="-3"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumCriticIncrease" Priority="-4"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostBalancedXPIncrease" Priority="-5"/>
+
+		--><!--
+		<Command Name="UnlockPlay"                      Arguments="PlayDefensiveShortDamageReductionPerSquadron" Priority="-6"/>
+		<Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumSquadronDamageIncreasePerSquadron" Priority="-7"/>
+		<Command Name="UnlockPlay"                      Arguments="PlayPostLongShipRepairWithSquadron" Priority="-8"/>
+		<Command Name="UnlockPlay"                      Arguments="PlayOffensiveBalancedSquadronOffenseBoost" Priority="-9"/>
+		<Command Name="UnlockPlay"                      Arguments="PlayDefensiveMediumSquadronDefenseBoost" Priority="-10"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveBalancedShortRangeDefense"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveShortProjectileManpowerKillIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostShortInfluenceGain"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveMediumLongRangeDefense"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongUnarmedDefenseIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumEnergyManpowerKillIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveShortWeakestTargeting"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostBalancedOpponentRecycling"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongProjectileManpowerAbsorptionIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongDamageReduction"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostMediumRepair"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveShortEnergyManpowerAbsorptionIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumProjectilePenertrationIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveShortManpowerAgainstDamage"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostBalancedActionGain"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveBalancedShieldPenetrationIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostShortMovementGain"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostLongEmpireManpowerSaving"/>  
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveShortAccuracyReduction"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveBalancedDamageIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveShortMoraleBonusIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveBalancedLostShipRepair"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveBalancedShieldReload"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongCriticReduction"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveLongCooldownIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayDefensiveMediumMoralePenalty"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveBalancedInfluenceAgainstDamage"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveLongSplashDamage"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumLostShipDamageIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumProjectileHullPlatingPenetrationIncrease"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayOffensiveMediumDefenseReductionPerCP"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostShortScienceGain"/>
+        <Command Name="UnlockPlay"                      Arguments="PlayPostLongLostShipXPIncrease"/>
+--><!--
+        --><!--COLONY DEFAULT BUILDING --><!--
+        <ColonyImprovementReference                     Name="StarSystemImprovementColonyBase"/>
+        <SubTrait Name="FactionTraitParasite"/>
+           
+
+        <SimulationDescriptorReference Name="AffinityCravers"/>
+        <SimulationDescriptorReference Name="AffinityGameplayCravers"/>
+
+        <DefaultColonizer>ShipDesignDecolonizationCravers</DefaultColonizer>
+        <AutomatedShip>ShipDesignAutomatedShipCravers</AutomatedShip>
+
+        <UnlockedAbstractShipDesigns>Colonizer,Explorer,SmallAttack,SmallSupport,MediumAttack,MediumDefense,LargeCarrier</UnlockedAbstractShipDesigns>
+        <StartingFleets>Explorer,Explorer,Colonizer</StartingFleets>
+    </FactionAffinity>-->
+
+</Datatable>

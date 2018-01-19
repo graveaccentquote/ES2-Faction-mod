@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <GuiElement Name="CategoryFactionUnitedHissho">
+      <Title>%PopulationUnitedHisshoTitle</Title>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
+      </Icons>
+    </GuiElement>
+
+    <!--TODO-->
+    <!--<GuiElement Name="CategoryFactionAscendedAmoeba">
+      <Title>%PopulationCraversTitle</Title>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
+      </Icons>
+    </GuiElement>-->
+
+    <!--<GuiElement Name="CategoryFactionCravers">
+        <Title>%PopulationCraversTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
+        </Icons>
+    </GuiElement>-->
+
+    <!-- TODO Hero skills :-->
+    <!--<GuiElement Name="CategoryHeroSkillTreeCravers">
+        <Title>%CategoryHeroSkillTreeCraversTitle</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityCraversSmall" />
+        </Icons>
+    </GuiElement>-->
+
+
+</Datatable>

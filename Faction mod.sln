@@ -6,48 +6,57 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Faction mod", "Faction mod", "{CA04589C-358D-44C7-BE5C-258BCCD7F12F}"
 	ProjectSection(SolutionItems) = preProject
 		Factionpack.xml = Factionpack.xml
-		GuiElements[Affinities].xml = GuiElements[Affinities].xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{2CDDC112-89CA-463E-9599-378361C77573}"
 	ProjectSection(SolutionItems) = preProject
-		Simulation\Factions[Major].xml = Simulation\Factions[Major].xml
-		Simulation\FactionTraits[Affinity].xml = Simulation\FactionTraits[Affinity].xml
-		Simulation\FactionTraits[AffinityMapping].xml = Simulation\FactionTraits[AffinityMapping].xml
-		Simulation\GovernmentDefinitions.xml = Simulation\GovernmentDefinitions.xml
-		Simulation\PopulationCollectionBonusTraits.xml = Simulation\PopulationCollectionBonusTraits.xml
-		Simulation\PopulationDefinitions.xml = Simulation\PopulationDefinitions.xml
-		Simulation\PopulationModifiersTraits.xml = Simulation\PopulationModifiersTraits.xml
-		Simulation\SimulationDescriptors[FactionAffinity].xml = Simulation\SimulationDescriptors[FactionAffinity].xml
-		Simulation\SimulationDescriptors[FactionAffinityMapping].xml = Simulation\SimulationDescriptors[FactionAffinityMapping].xml
-		Simulation\SimulationDescriptors[Government].xml = Simulation\SimulationDescriptors[Government].xml
-		Simulation\SimulationDescriptors[Population].xml = Simulation\SimulationDescriptors[Population].xml
-		Simulation\SimulationDescriptors[PopulationCollectionBonus].xml = Simulation\SimulationDescriptors[PopulationCollectionBonus].xml
-		Simulation\SimulationDescriptors[UniquePlanet].xml = Simulation\SimulationDescriptors[UniquePlanet].xml
+		Simulation\Factions[Major_mod].xml = Simulation\Factions[Major_mod].xml
+		Simulation\FactionTraits[Affinity_mod].xml = Simulation\FactionTraits[Affinity_mod].xml
+		Simulation\FactionTraits[AffinityMapping_mod].xml = Simulation\FactionTraits[AffinityMapping_mod].xml
+		Simulation\GovernmentDefinitions[mod].xml = Simulation\GovernmentDefinitions[mod].xml
+		Simulation\PopulationCollectionBonusTraits[mod].xml = Simulation\PopulationCollectionBonusTraits[mod].xml
+		Simulation\PopulationDefinitions[mod].xml = Simulation\PopulationDefinitions[mod].xml
+		Simulation\PopulationModifiersTraits[mod].xml = Simulation\PopulationModifiersTraits[mod].xml
+		Simulation\SimulationDescriptors[FactionAffinity_mod].xml = Simulation\SimulationDescriptors[FactionAffinity_mod].xml
+		Simulation\SimulationDescriptors[FactionAffinityMapping_mod].xml = Simulation\SimulationDescriptors[FactionAffinityMapping_mod].xml
+		Simulation\SimulationDescriptors[Government_mod].xml = Simulation\SimulationDescriptors[Government_mod].xml
+		Simulation\SimulationDescriptors[Population_mod].xml = Simulation\SimulationDescriptors[Population_mod].xml
+		Simulation\SimulationDescriptors[PopulationCollectionBonus_mod].xml = Simulation\SimulationDescriptors[PopulationCollectionBonus_mod].xml
+		Simulation\SimulationDescriptors[UniquePlanet_mod].xml = Simulation\SimulationDescriptors[UniquePlanet_mod].xml
+		Simulation\TemporaryEffectDefinitions[mod].xml = Simulation\TemporaryEffectDefinitions[mod].xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gui", "Gui", "{9F846558-B891-4B49-B8DC-E70903803008}"
 	ProjectSection(SolutionItems) = preProject
-		Gui\GuiElements[Affinities].xml = Gui\GuiElements[Affinities].xml
-		Gui\GuiElements[Categories].xml = Gui\GuiElements[Categories].xml
-		Gui\GuiElements[EmpireImprovements].xml = Gui\GuiElements[EmpireImprovements].xml
-		Gui\GuiElements[Factions].xml = Gui\GuiElements[Factions].xml
-		Gui\GuiElements[GameVariables].xml = Gui\GuiElements[GameVariables].xml
-		Gui\GuiElements[Hulls].xml = Gui\GuiElements[Hulls].xml
-		Gui\GuiElements[PsychoTraits].xml = Gui\GuiElements[PsychoTraits].xml
-		Gui\GuiElements[ShipDesigns].xml = Gui\GuiElements[ShipDesigns].xml
+		Gui\GuiElements[Affinities_mod].xml = Gui\GuiElements[Affinities_mod].xml
+		Gui\GuiElements[Categories_mod].xml = Gui\GuiElements[Categories_mod].xml
+		Gui\GuiElements[Factions_mod].xml = Gui\GuiElements[Factions_mod].xml
+		Gui\GuiElements[GameVariables_mod].xml = Gui\GuiElements[GameVariables_mod].xml
+		Gui\GuiElements[Hulls_mod].xml = Gui\GuiElements[Hulls_mod].xml
+		Gui\GuiElements[ShipDesigns_mod].xml = Gui\GuiElements[ShipDesigns_mod].xml
+		Gui\GuiElements[UniquePlanets_mod].xml = Gui\GuiElements[UniquePlanets_mod].xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GalaxyGenerator", "GalaxyGenerator", "{4C21ECB5-170B-4282-B13F-C97CA1D99E05}"
 	ProjectSection(SolutionItems) = preProject
-		GalaxyGenerator\WeightTableDefinitions.xml = GalaxyGenerator\WeightTableDefinitions.xml
+		GalaxyGenerator\WeightTableDefinitions[mod].xml = GalaxyGenerator\WeightTableDefinitions[mod].xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Battles", "Battles", "{81886F7C-CE3B-4B05-A9E9-340BD9361418}"
 	ProjectSection(SolutionItems) = preProject
 		Simulation\Battles\HullDefinitions[UnitedHissho].xml = Simulation\Battles\HullDefinitions[UnitedHissho].xml
 		Simulation\Battles\ShipDesignDefinitions[UnitedHissho].xml = Simulation\Battles\ShipDesignDefinitions[UnitedHissho].xml
-		Simulation\Battles\ShipDesignTemplateDefinitions.xml = Simulation\Battles\ShipDesignTemplateDefinitions.xml
+		Simulation\Battles\ShipDesignTemplateDefinitions[mod].xml = Simulation\Battles\ShipDesignTemplateDefinitions[mod].xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quests", "Quests", "{907B4BD1-BBD4-4BD8-9991-89DA9E844DF7}"
+	ProjectSection(SolutionItems) = preProject
+		Quests\QuestDefinitions[GameplayHissho].xml = Quests\QuestDefinitions[GameplayHissho].xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{0FBA8116-8573-4EDF-9DFC-536A00BBFB24}"
+	ProjectSection(SolutionItems) = preProject
+		Mapping\FleetNameMappingDefinitions[mod].xml = Mapping\FleetNameMappingDefinitions[mod].xml
 	EndProjectSection
 EndProject
 Global
@@ -59,5 +68,7 @@ Global
 		{9F846558-B891-4B49-B8DC-E70903803008} = {CA04589C-358D-44C7-BE5C-258BCCD7F12F}
 		{4C21ECB5-170B-4282-B13F-C97CA1D99E05} = {CA04589C-358D-44C7-BE5C-258BCCD7F12F}
 		{81886F7C-CE3B-4B05-A9E9-340BD9361418} = {2CDDC112-89CA-463E-9599-378361C77573}
+		{907B4BD1-BBD4-4BD8-9991-89DA9E844DF7} = {CA04589C-358D-44C7-BE5C-258BCCD7F12F}
+		{0FBA8116-8573-4EDF-9DFC-536A00BBFB24} = {CA04589C-358D-44C7-BE5C-258BCCD7F12F}
 	EndGlobalSection
 EndGlobal

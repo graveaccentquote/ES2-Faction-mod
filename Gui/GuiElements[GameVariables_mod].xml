@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+	<!-- Pop Faction -->
+
+	<GuiElement Name="PopulationsAssimilated">
+		<Title>%PopulationsAssimilatedTitle</Title>
+	</GuiElement>
+  
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUnitedHissho">
+        <Title>%ClassPopulationEmpireAffinityUnitedHisshoTitle</Title>      
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityUnitedHisshoCount">
+        <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>
+    </ExtendedGuiElement>
+
+    <!-- TODO Change this -->
+    <!--<ExtendedGuiElement Name="ClassPopulationEmpireAffinityAscendedAmoeba"> 
+        <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>      
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationEmpireAffinityAscendedAmoebaCount">
+        <Title>%ClassPopulationEmpireAffinitySophonsTitle</Title>
+    </ExtendedGuiElement>-->
+  
+    <!-- System Affinity -->
+
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUnitedHissho">
+      <Title>%ClassPopulationStarSystemAffinitySophonsTitle</Title> <!-- TODO CHANGE THIS-->
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityUnitedHisshoCount">
+      <Title>%ClassPopulationStarSystemAffinitySophonsTitle</Title>
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <!--<ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAscendedAmoeba">
+      <Title>%ClassPopulationStarSystemAffinitySophonsTitle</Title>
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>
+
+    <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityAscendedAmoebaCount">
+      <Title>%ClassPopulationStarSystemAffinitySophonsTitle</Title>
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    </ExtendedGuiElement>-->
+  
+    <!--Planet Affinity-->
+
+    <ExtendedGuiElement Name="ClassPopulationPlanetAffinityUnitedHisshoCount">
+      <Title>%PopulationSophonsTitle</Title>  <!-- TODO CHANGE THIS-->
+      <Description>%PopulationSophonsDescription</Description>
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+      <AltTitle>%PopulationSophonsTitle</AltTitle>
+    </ExtendedGuiElement>
+
+    <!--<ExtendedGuiElement Name="ClassPopulationPlanetAffinityAscendedAmoebaCount">
+      <Title>%PopulationSophonsTitle</Title>
+      <Description>%PopulationSophonsDescription</Description>
+      <SymbolString>[sophons]</SymbolString>
+      <Color Red="255" Green="255" Blue="255" Alpha="255" />
+      <AltTitle>%PopulationSophonsTitle</AltTitle>
+    </ExtendedGuiElement>-->
+
+    <!-- AFFINITY -->
+
+    <ExtendedGuiElement Name="AffinityGameplayTechnologyUnitedHissho">
+      <Title>%AffinityGameplaySophonsTitle</Title> <!-- TODO CHANGE THIS-->
+      <Description>%AffinityGameplaySophonsDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityGameplaySmall" />
+      </Icons>
+    </ExtendedGuiElement>
+
+    <!--<ExtendedGuiElement Name="AffinityGameplayTechnologyAscendedAmoeba">
+      <Title>%AffinityGameplaySophonsTitle</Title>
+      <Description>%AffinityGameplaySophonsDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityGameplaySmall" />
+      </Icons>
+    </ExtendedGuiElement>-->
+  
+    <ExtendedGuiElement Name="AffinityUnitedHissho"> <!-- TODO CHANGE THIS-->
+      <Title>%AffinitySophonsTitle</Title>
+      <Description>%AffinitySophonsDescription</Description>
+      <Icons>
+        <Icon Size="Small" Path="Gui/small" />
+        <Icon Size="Medium" Path="Gui/medium"  />
+        <Icon Size="MediumInverted" Path="Gui/medium2" />
+        <Icon Size="Large"  Path="Gui/large" />
+        <Icon Size="Leader" Path="Gui/Leaders/HisshoLeader" />
+      </Icons>
+      <SymbolString>[hisshos]</SymbolString>
+      <Color Red="233" Green="105" Blue="237" Alpha="255" />
+    </ExtendedGuiElement>
+
+  <!--<ExtendedGuiElement Name="AffinityAscendedAmoeba">
+    <Title>%AffinitySophonsTitle</Title>
+    <Description>%AffinitySophonsDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinitySophonsSmall" />
+      <Icon Size="Medium" Path="Bitmaps/Atlased/Affinities/AffinitySophonsMedium" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinitySophonsMediumInverted" />
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Affinities/AffinitySophonsLarge" />
+      <Icon Size="Leader" Path="Bitmaps/Dynamic/Affinities/AffinitySophonsLeader" />
+    </Icons>
+    <SymbolString>[sophons]</SymbolString>
+    <Color Red="233" Green="105" Blue="237" Alpha="255" />
+  </ExtendedGuiElement>-->
+</Datatable>

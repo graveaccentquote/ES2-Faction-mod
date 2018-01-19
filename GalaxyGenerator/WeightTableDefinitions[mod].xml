@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GalaxyGeneratorWeightTableDefinition.xsd">
+
+    <GalaxyGeneratorWeightTable Name="FactionUnitedHissho_StarTypes">
+      <Entry Tag="StarTypeRedSupergiant"             Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionUnitedHissho_PlanetTypes">
+      <Entry Tag="PlanetTypeJungle"             Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+  <!--TODO-->
+  <!--<GalaxyGeneratorWeightTable Name="FactionAscendedAmoeba_StarTypes">  
+      <Entry Tag="StarTypeBlue"             Weight="1"/>
+    </GalaxyGeneratorWeightTable>
+
+    <GalaxyGeneratorWeightTable Name="FactionAscendedAmoeba_PlanetTypes">
+      <Entry Tag="PlanetTypeOcean"             Weight="1"/>
+    </GalaxyGeneratorWeightTable>-->
+
+</Datatable>

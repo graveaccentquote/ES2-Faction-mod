@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <!-- ########################################## -->
+    <!-- ######        MAJOR FACTIONS        ###### -->
+    <!-- ########################################## -->
+    <!-- AffinityGuiElement is mapped with the AffinityMapping of the Faction's MajorPopulation -->
+
+  <AffinityGuiElement Name="AffinityMappingUnitedHissho" PreloadCount="3" >
+    <Title>%AffinityUnitedHisshoTitle</Title>
+    <Description>%AffinityUnitedHisshoDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="HisshoVisualAffinity/HisshoSmall" /> <!--For population icons on planets/systems-->
+      <Icon Size="Medium" Path="HisshoVisualAffinity/HisshoMedium" /> <!--For diplomatic icon on home system-->
+      <Icon Size="MediumInverted" Path="HisshoVisualAffinity/HisshoMediumInverted" /> 
+      <Icon Size="Large" Path="HisshoVisualAffinity/HisshoLarge" /> <!--For the extended population tooltip-->
+      <Icon Size="Leader" Path="HisshoVisualAffinity/HisshoLeader" /> <!--Fall when the model fails to load-->
+      <Icon Size="Mood" Path="HisshoVisualAffinity/HisshoMood" /> <!--For the population Collection-->
+      <Icon Size="SmallExtended" Path="HisshoVisualAffinity/HisshoSmallExtended" /> <!--For notification when meeting the empire--> 
+      <Icon Size="MediumExtended" Path="HisshoVisualAffinity/HisshoMediumExtended" /> <!--For notification when meeting the empire-->
+      <Icon Size="Loading" Path="HisshoVisualAffinity/HisshoMood" /> <!--Obviously, for the loading screen-->
+    </Icons>
+    <SymbolString>[hisshos]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitHisshos</ModelPath>
+  </AffinityGuiElement>
+
+  <!--<AffinityGuiElement Name="AffinityMappingAscendedAmoeba" PreloadCount="3" >
+    <Title>%AffinityCraversTitle</Title>
+    <Description>%AffinityCraversDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Gui/small" />
+      <Icon Size="Medium" Path="Gui/medium" />
+      <Icon Size="MediumInverted" Path="Gui/medium2" />
+      <Icon Size="Large" Path="Gui/large" />
+      <Icon Size="Leader" Path="Gui/Leaders/AmoebaLeader" />
+      <Icon Size="Mood" Path="Bitmaps/Dynamic/Affinities/AffinityAmoebaMood" />
+      <Icon Size="SmallExtended" Path="Gui/small2" />
+      <Icon Size="MediumExtended" Path="Gui/medium2" />
+      <Icon Size="Loading" Path="Bitmaps/Dynamic/Moods/LoadingScreen03" />
+    </Icons>
+    <SymbolString>[cravers]</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitAmoeba2</ModelPath>
+    --><!-- <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitAmoeba</ModelPath> --><!--
+  </AffinityGuiElement>-->
+    
+</Datatable>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationDefinition.xsd">
+
+	<!-- ####################################### -->
+	<!-- ##########  MAJOR FACTIONS ############ -->
+	<!-- ####################################### -->
+  
+      <!-- ####################################### -->
+      <!--             UNITED HISSHO               -->
+      <!-- ####################################### -->
+
+    <PopulationDefinition AffinityName="AffinityUnitedHissho" Standard="true">
+ 
+        <DefaultPolitics>
+            <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0"/>
+        </DefaultPolitics>
+
+        <!--TODO: PsychoTraits-->
+        <Trait Name="PopulationPoliticalTraitMilitarist"/>
+        <Trait Name="PopulationPoliticalTraitAntiScientist"/>
+        <Trait Name="PopulationPoliticalTraitAggressive"/>
+
+        <Trait Name="PopulationModifiersTraitUnitedHisshoCount"/>  <!-- TODO -->
+        <Trait Name="PopulationModifiersTraitUnitedHissho"/> <!-- TODO -->
+
+        <Trait Name="PopulationModifiersTraitPrimaryManpower"/>
+        <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamageFertile"/>
+
+        <Trait Name="PopulationCollectionBonusTraitUnitedHissho"/>
+
+        <Wills>
+        </Wills>
+
+        <AffinityMapping Name="AffinityMappingUnitedHissho"/>
+
+        <GrowthBoostLuxuryOptions>
+            <Luxury>Luxury1</Luxury>
+            <Luxury>Luxury2</Luxury>
+            <Luxury>Luxury3</Luxury>
+            <Luxury>Luxury4</Luxury>
+            <Luxury>Luxury5</Luxury>
+            <Luxury>Luxury6</Luxury>
+            <Luxury>Luxury7</Luxury>
+            <Luxury>Luxury8</Luxury>
+        </GrowthBoostLuxuryOptions>
+    </PopulationDefinition>
+
+  <!-- ####################################### -->
+  <!--             ASCENDED AMOEBA             -->
+  <!-- ####################################### -->
+
+  <!--<PopulationDefinition AffinityName="AffinityAscendedAmoeba" Standard="true">
+    <SupervisorGain Name="Science" Weight="3">
+      <Tags>PlanetGameplayTypeCold</Tags>
+    </SupervisorGain>
+
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics03" BaseScore="1" BaseTrend="0"/>
+    </DefaultPolitics>
+
+    --><!--TODO: PsychoTraits--><!--
+    <Trait Name="PopulationPoliticalTraitPacifists"/>
+    <Trait Name="PopulationPoliticalTraitAntiReligious"/>
+    <Trait Name="PopulationPoliticalTraitMerciful"/>
+
+    <Trait Name="PopulationModifiersTraitAmoebaCount"/> --><!-- TODO --><!--
+    <Trait Name="PopulationModifiersTraitAmoeba"/> --><!-- TODO --><!--
+
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/> --><!-- TODO REPLACE with FIDSI --><!--
+
+    <Trait Name="PopulationCollectionBonusTraitAscendedAmoeba"/>
+
+    <Wills>
+    </Wills>
+
+    <AffinityMapping Name="AffinityMappingAscendedAmoeba"/>
+
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>-->
+</Datatable>

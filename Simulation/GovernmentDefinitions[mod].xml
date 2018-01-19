@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/GovernmentDefinition.xsd">
+
+    <!--**************************************************************************************************-->
+    <!--**                                     HISSHO SHOGUNATE                                         **-->
+    <!--**************************************************************************************************-->
+
+    <GovernmentDefinition Name="GovernmentEmpireUnitedHissho" RequiredHappiness="50" InitialRepresentativeCount="6" InitialGovernmentCost="10" Fixed="true" Hidden="true" >
+
+      <SimulationDescriptorReference Name="GovernmentEmpireUnitedHissho"/>
+      <SimulationDescriptorReference Name="GovernmentEmpire"/>
+
+      <RepresentativesElectionProcessReference Name="Empire_Representatives"/>
+      <SenateElectionProcessReference          Name="Empire_Senators"/>
+      <SurveyElectionProcessReference          Name="Empire_Survey"/>
+
+      <CustomCost ResourceName="EmpireEmpirePoint" Instant="true">200 * Property(StockLocation, @ClassEmpire,SystemCount) * Property(StockLocation, @ClassEmpire/ClassSenate, GovernmentEmpireCostMultiplier)</CustomCost>
+
+      <NextGovernmentReference Name="GovernmentEmpireUnitedHissho"/>
+      <AnarchyGovernmentReference Name="GovernmentAnarchy"/>
+
+      <OnStart>
+        <Action_ForceElection/>
+        <Action_Notify Class="EventGovernmentStarted"/>
+      </OnStart>
+
+      <OnEnd>
+        <Action_ClearLaws/>
+      </OnEnd>
+
+    </GovernmentDefinition>
+
+</Datatable>

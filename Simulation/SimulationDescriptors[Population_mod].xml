@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+  <SimulationDescriptor Name="ClassPopulationEmpireAffinityUnitedHissho" Type="ClassPopulationEmpire"/>
+  <!--<SimulationDescriptor Name="ClassPopulationEmpireAffinityAscendedAmoeba" Type="ClassPopulationEmpire"/>--> <!--TODO-->
+
+	  <!-- United Hissho -->
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUnitedHissho" Type="ClassPopulationStarSystem">
+    </SimulationDescriptor>
+
+
+    <!-- Ascended Amoeba -->
+    <!--<SimulationDescriptor Name="ClassPopulationStarSystemAffinityAscendedAmoeba" Type="ClassPopulationStarSystem">  
+    </SimulationDescriptor>-->
+    <!--TODO-->
+   
+	<!-- ################################################################-->
+	<!-- ############################# COUNT ############################-->
+	<!-- ################################################################-->
+
+    <!-- United Hissho -->
+    <SimulationDescriptor Name="ClassPopulationPlanetAffinityUnitedHisshoCount" Type="ClassPopulationPlanet">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityUnitedHisshoCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityUnitedHisshoCount" Type="ClassPopulationStarSystem">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityUnitedHisshoCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityUnitedHisshoCount" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityUnitedHisshoCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <!-- Ascended Amoeba -->   <!--TODO-->
+    <!--<SimulationDescriptor Name="ClassPopulationPlanetAffinityCraversCount" Type="ClassPopulationPlanet">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityCraversCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityCraversCount" Type="ClassPopulationStarSystem">
+      <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityCraversCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityCraversCount" Type="ClassPopulationEmpire">
+      <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityCraversCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>-->
+    
+  <!-- ################################################################-->
+	<!-- ######################### ASSIMILATION #########################-->
+	<!-- ################################################################-->
+
+  <!-- Hisshos -->
+  <SimulationDescriptor Name="ClassPopulationAssimilatedEmpireAffinityUnitedHissho" Type="ClassPopulationAssimilated">
+    <Modifier		TargetProperty="PopulationsAssimilated"			Operation="Addition"		Value="1"	Path="../ClassEmpire" TooltipHidden="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="ClassPopulationAssimilatedPlanetAffinityUnitedHisshos" Type="ClassPopulationAssimilated">
+    <Modifier TargetProperty="BonusPopulationDefense"      Operation="Addition"    Value="20"     Path="ClassPopulation" />
+  </SimulationDescriptor>
+
+  <!-- Ascended Amoeba -->
+  <!--TODO-->
+</Datatable>

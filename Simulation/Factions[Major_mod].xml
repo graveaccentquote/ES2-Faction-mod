@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MajorFaction.xsd">
+
+    <!-- ########################################## -->
+    <!-- ######        MAJOR FACTIONS        ###### -->
+    <!-- ########################################## -->
+
+  <!-- United hissho -->
+  <MajorFaction Name="FactionUnitedHissho" Standard="true" Author="Gravequote" Priority="3">
+    <!-- <Affinity Name="AffinityGameplayUnitedHisshos"/> -->
+    <Affinity Name="AffinityGameplaySophons"/>
+
+    <Trait Name="IsMajorFaction"/>
+
+    <TraitStartingSenate Priority="100">
+      <Government Name="GovernmentEmpireUnitedHissho"/>
+      <PoliticsWeight Politics="Politics01" Weight="0"/>
+      <PoliticsWeight Politics="Politics02" Weight="0"/>
+      <PoliticsWeight Politics="Politics03" Weight="0"/>
+      <PoliticsWeight Politics="Politics04" Weight="0"/>
+      <PoliticsWeight Politics="Politics05" Weight="3"/>
+      <PoliticsWeight Politics="Politics06" Weight="3"/>
+    </TraitStartingSenate>
+
+    <Bailiff Name="DefaultMoneyBailiff"/>
+    <Bailiff Name="DefaultEmpirePointBailiff"/>
+
+    <!--<MajorPopulation Affinity="AffinitySophons"     Count="2"/>-->
+    <MajorPopulation Affinity="AffinityUnitedHissho"     Count="2"/> 
+  </MajorFaction>
+  
+
+  <!-- Ascended amoeba -->
+    <!--<MajorFaction Name="FactionAscendedAmoeba" Standard="true" Author="Gravequote" Priority="6">
+      --><!--      <Affinity Name="AffinityGameplayAmoebas"/> --><!--
+      <Affinity Name="AffinityGameplaySophons"/>
+      
+      <Trait Name="IsMajorFaction"/>
+
+      <TraitStartingSenate Priority="100">
+        <Government Name="GovernmentDemocracy"/> --><!-- change to GovermentRepublicAmoeba--><!--
+        <PoliticsWeight Politics="Politics01" Weight="0"/>
+        <PoliticsWeight Politics="Politics02" Weight="0"/>
+        <PoliticsWeight Politics="Politics03" Weight="4"/>
+        <PoliticsWeight Politics="Politics04" Weight="0"/>
+        <PoliticsWeight Politics="Politics05" Weight="0"/>
+        <PoliticsWeight Politics="Politics06" Weight="2"/>
+      </TraitStartingSenate>
+
+      <Bailiff Name="DefaultMoneyBailiff"/>
+      <Bailiff Name="DefaultEmpirePointBailiff"/>
+
+      <MajorPopulation Affinity="AffinitySophons"     Count="2"/>
+      --><!--<MajorPopulation Affinity="AffinityAscendedAmoeba"     Count="2"/>--><!--
+     </MajorFaction>--> 
+  
+
+</Datatable>

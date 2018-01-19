@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/TemporaryEffectDefinition.xsd">
+
+    <!-- Gameplay -->
+    <!-- Might be useless because of quests-->
+    <TemporaryEffectDefinition Name="BattleBushido" Category="BushidoEffects" Duration="15">
+      <Path>../ClassEmpire</Path>
+      <SimulationDescriptorReference Name="TemporaryEffectBattleBushido"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="InvasionBushido" Category="BushidoEffects" Duration="10">
+      <Path>../ClassEmpire</Path>
+      <SimulationDescriptorReference Name="TemporaryEffectInvasionBushido"/>
+    </TemporaryEffectDefinition>
+
+    <TemporaryEffectDefinition Name="RevengeBushido" Category="BushidoEffects" Duration="20">
+      <Path>../ClassEmpire</Path>
+      <SimulationDescriptorReference Name="TemporaryEffectRevengeBushido"/>
+    </TemporaryEffectDefinition>
+</Datatable>

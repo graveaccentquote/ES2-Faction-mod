@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
+
+    <!-- ######################################################## -->
+    <!-- ################   MAJOR FACTIONS   #################### -->
+    <!-- ######################################################## -->
+
+    <!-- UnitedHissho -->
+    <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitUnitedHissho" Cost="0" CustomEquivalent="PopulationCollectionBonusTraitCustomFactionWar" ShowInCustom="false">
+      <CollectionBonus Threshold="10">
+        <SimulationDescriptorReference Name="PopulationCollectionBonusUnitedHissho1"/>
+        <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+      </CollectionBonus>
+
+      <CollectionBonus Threshold="20">
+        <SimulationDescriptorReference Name="PopulationCollectionBonusUnitedHissho2"/>
+        <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+      </CollectionBonus>
+
+      <CollectionBonus Threshold="50">
+        <SimulationDescriptorReference Name="PopulationCollectionBonusUnitedHissho3"/>
+        <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+      </CollectionBonus>
+    </PopulationCollectionBonusTrait>
+  
+    <!-- TODO amoeba-->
+
+    <!-- Cravers --><!--
+    <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitCraver" Cost="0" CustomEquivalent="PopulationCollectionBonusTraitCustomFactionWar" ShowInCustom="false">
+        <CollectionBonus Threshold="10">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusCravers1"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="20">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusCravers2"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="50">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusCravers3"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+        </CollectionBonus>
+    </PopulationCollectionBonusTrait>-->
+</Datatable>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+
+    <!-- ############################################################################## -->
+    <!-- #############################  MAJOR FACTIONS ################################ -->
+    <!-- ############################################################################## -->
+
+    <!-- ####################################### -->
+    <!--             United Hissho               -->
+    <!-- ####################################### -->
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitUnitedHissho" SubCategory="Affinity" ShowInCustom="false">
+      <Modifiers>
+        <Modifier Class="ClassPopulationEmpire">
+          <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUnitedHissho"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationStarSystem">
+          <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUnitedHissho"/>
+          <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+        </Modifier>
+      </Modifiers>
+      <AssimilatedModifiers>
+        <Modifier Class="ClassPopulationEmpire">
+          <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUnitedHissho"/>
+        </Modifier>
+      </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+  
+    <!--TODO-->
+    <!--<PopulationModifiersTrait Name="PopulationModifiersTraitPrimaryScience01" SubCategory="Primary" ShowInCustom="true" Cost="5">
+      --><!--Local Bonus: Analysts--><!--
+      <Modifiers>
+        <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+          <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPrimaryScience01"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationPlanet">
+          --><!--+1 Science per Population--><!--
+          <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPrimaryScience01"/>
+        </Modifier>
+      </Modifiers>
+      <AssimilatedModifiers>
+        <Modifier Class="ClassPopulationPlanet">
+          --><!--Bonus given to the Population that assimilates them--><!--
+          <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetScience01"/>
+        </Modifier>
+      </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryScienceCold" SubCategory="Secondary" ShowInCustom="true" Cost="5">
+      --><!--Contextual Bonus: Cryologists--><!--
+      <Tags>PlanetGameplayTypeCold,BonusPopulationScience</Tags>
+      <Modifiers>
+        <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true">
+          <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryScienceCold"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationPlanet">
+          --><!--+3 Science per Population on Cold--><!--
+          <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryScienceCold"/>
+        </Modifier>
+      </Modifiers>
+      <AssimilatedModifiers>
+        <Modifier Class="ClassPopulationPlanet">
+          --><!--Bonus given to the Population that assimilates them--><!--
+          <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetScienceCold"/>
+        </Modifier>
+      </AssimilatedModifiers>
+    </PopulationModifiersTrait>-->
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitUnitedHisshoCount" SubCategory="Count">
+      <Modifiers>
+        <Modifier Class="ClassPopulationPlanet">
+          <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUnitedHisshoCount"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationStarSystem">
+          <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUnitedHisshoCount"/>
+        </Modifier>
+        <Modifier Class="ClassPopulationEmpire">
+          <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUnitedHisshoCount"/>
+        </Modifier>
+      </Modifiers>
+    </PopulationModifiersTrait>
+    
+</Datatable>

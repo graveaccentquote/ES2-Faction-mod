@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FactionTrait.xsd">
+
+    <!-- ########################################## -->
+    <!-- ######        MAJOR FACTIONS        ###### -->
+    <!-- ########################################## -->
+
+    <!-- United Hissho -->
+    <FactionAffinityMapping Name="AffinityMappingUnitedHissho" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
+      <Command Name="RecruitHero"                     Arguments="HeroCravers03"/>
+
+      <SimulationDescriptorReference Name="AffinityMappingUnitedHissho" />
+
+      <ShipDesign Abstract="Colonizer"        ShipDesign="UnitedHissho_Colonizer"/>
+      <ShipDesign Abstract="Explorer"         ShipDesign="UnitedHissho_Explorer"/>
+      <ShipDesign Abstract="Leecher"          ShipDesign="UnitedHissho_Leecher"/>
+      <ShipDesign Abstract="RootCreator"      ShipDesign="UnitedHissho_RootCreator"/>
+      <ShipDesign Abstract="SmallAttack"      ShipDesign="UnitedHissho_SmallAttack"/>
+      <ShipDesign Abstract="SmallSupport"     ShipDesign="UnitedHissho_SmallSupport"/>
+      <ShipDesign Abstract="MediumAttack"     ShipDesign="UnitedHissho_MediumAttack"/>
+      <ShipDesign Abstract="MediumDefense"    ShipDesign="UnitedHissho_MediumDefense"/>
+      <ShipDesign Abstract="Invader"          ShipDesign="UnitedHissho_Invader"/>
+      <ShipDesign Abstract="LargeCarrier"     ShipDesign="UnitedHissho_LargeCarrier"/>
+      <ShipDesign Abstract="Mothership"       ShipDesign="UnitedHissho_Mothership"/>
+      
+      
+    </FactionAffinityMapping>
+
+    <!-- Ascended Amoebas -->
+    <!--<FactionAffinityMapping Name="AffinityMappingAscendedAmoeba" SubCategory="MajorFactionAffinityMapping" Hidden="false" Custom="true" Cost="5">
+      <Command Name="RecruitHero"                     Arguments="HeroCravers03"/>
+
+      <SimulationDescriptorReference Name="AffinityMappingAscendedAmoeba" />
+
+      <ShipDesign Abstract="Colonizer"        ShipDesign="AscendedAmoeba_Colonizer"/>
+      <ShipDesign Abstract="Explorer"         ShipDesign="AscendedAmoeba_Explorer"/>
+      <ShipDesign Abstract="Leecher"          ShipDesign="AscendedAmoeba_Leecher"/>
+      <ShipDesign Abstract="RootCreator"      ShipDesign="AscendedAmoeba_RootCreator"/>
+      <ShipDesign Abstract="SmallAttack"      ShipDesign="AscendedAmoeba_SmallAttack"/>
+      <ShipDesign Abstract="SmallSupport"     ShipDesign="AscendedAmoeba_SmallSupport"/>
+      <ShipDesign Abstract="MediumAttack"     ShipDesign="AscendedAmoeba_MediumAttack"/>
+      <ShipDesign Abstract="MediumDefense"    ShipDesign="AscendedAmoeba_MediumDefense"/>
+      <ShipDesign Abstract="Invader"          ShipDesign="AscendedAmoeba_Invader"/>
+      <ShipDesign Abstract="LargeCarrier"     ShipDesign="AscendedAmoeba_LargeCarrier"/>
+      <ShipDesign Abstract="Mothership"       ShipDesign="AscendedAmoeba_Mothership"/>
+    </FactionAffinityMapping>-->
+  
+</Datatable>

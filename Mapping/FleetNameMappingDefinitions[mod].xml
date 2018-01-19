@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FleetNameMappingDefinition.xsd">
+
+    <FleetNameMappingDefinition Name="AffinityMappingUnitedHissho">
+      <FleetNameTitle LocalizationKey="%FleetNameTitleUnitedHissho">
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho00" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho01" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho02" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho03" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho04" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho05" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho06" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho07" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho08" />
+        <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveUnitedHissho09" />
+      </FleetNameTitle>
+    </FleetNameMappingDefinition>
+
+</Datatable>

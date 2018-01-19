@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <!-- Shogunate --> 
+  
+    <SimulationDescriptor Name="GovernmentEmpireUnitedHissho" Type="Government">
+      <Modifier TargetProperty="HappinessStatusMinimumRebellionIndex"    Operation="Addition"     Value="-1"      Path="./ClassEmpire" TooltipOverride="%GovernmentEmpireUnitedHisshoTooltipEffect"   /> <!--TODO : that tooltip-->
+      <Modifier TargetProperty="GovernmentGameplayLocked"                 Operation="Addition"    Value="1"       Path="./ClassEmpire" TooltipHidden="true"/>
+
+      <Modifier TargetProperty="NumberOfSenatorSlots"                 Operation="Force"       Value="2"      Path="ClassSenate"   />
+      <Modifier TargetProperty="NumberOfActiveLawSlots"               Operation="Addition"    Value="1"       Path="ClassSenate"  />
+
+      <!--Everyone gets to vote, but everything boosts military (06)-->
+      <Modifier TargetProperty="Politics02ToPolitics06"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+      <Modifier TargetProperty="Politics03ToPolitics06"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+      <Modifier TargetProperty="Politics04ToPolitics06"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+      <Modifier TargetProperty="Politics05ToPolitics06"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+      <Modifier TargetProperty="Politics01ToPolitics06"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+      
+      <!--Boosting religious party a tad bit too -->
+      <Modifier TargetProperty="Politics05ToPolitics05"   Operation="Addition"  Value="1"    TooltipHidden="true"    Path="./ClassEmpire/ClassPopulationEmpire"/>
+
+      <!--Gets a bonus to colonization threshold-->
+      
+      <!-- Can probably remove ../GalaxySize -->
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeTiny,ClassEmpire"       TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeSmall,ClassEmpire"      TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeMedium,ClassEmpire"     TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeLarge,ClassEmpire"      TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeHuge,ClassEmpire"       TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeColossal,ClassEmpire"   TooltipHiddenIfPathInvalid="true"/>
+      <Modifier TargetProperty="OverColonizationThreshold"            Operation="Addition"     Value="1"    Path="../GalaxySizeGigantic,ClassEmpire"   TooltipHiddenIfPathInvalid="true"/>
+    </SimulationDescriptor>
+</Datatable>
